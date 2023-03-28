@@ -132,12 +132,12 @@
                     <p>Dashboard</p>
                 </a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a href="{{ url('student/cursos')}}" class="nav-link">
-                    <imgnpm instal src="{{ url('assets/images/cursos.svg')}}" alt="" style="width: 12%; height: auto;">
+                    <img src="{{ url('assets/images/cursos.svg')}}" alt="" style="width: 12%; height: auto;">
                     <p>Cursos</p>
                 </a>
-            </li>
+            </li> --}}
             <li class="nav-item">
                 <a href="{{ url('student/exam')}}" class="nav-link">
                     <img src="{{ url('assets/images/exam1.svg')}}" alt="" style="width: 12%; height: auto;">
