@@ -181,6 +181,11 @@ class StudentOperation extends Controller
         public function cursos8(){
             return view('student.cursos8');
         }
+        //dash
+        public function dash(){
+            return view('student.dash');
+        }
+
 
 
 

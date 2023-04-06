@@ -82,7 +82,7 @@ class AdminController extends Controller
         $cat = Oex_category::where('id',$request->id)->get()->first();
         $cat->name = $request->name;
         $cat->update();
-        echo json_encode(array('status'=>'true','message'=>'updated successfully','reload'=>url('admin/exam_category')));
+        echo json_encode(array('status'=>'true','message'=>'Cambios Exitosos','reload'=>url('admin/exam_category')));
     }
 
 
@@ -131,7 +131,7 @@ class AdminController extends Controller
                 $exam->status = 1;
                 $exam->save();
 
-                $arr = array('status'=>'true','message'=>'exam added successfully','reload'=>url('admin/manage_exam'));
+                $arr = array('status'=>'true','message'=>'Examen creado con éxito','reload'=>url('admin/manage_exam'));
 
             }
 
@@ -186,7 +186,7 @@ class AdminController extends Controller
 
         $exam->update();
 
-        echo json_encode(array('status'=>'true','message'=>'Successfully updated','reload'=>url('admin/manage_exam')));
+        echo json_encode(array('status'=>'true','message'=>'Actualizado con Éxito','reload'=>url('admin/manage_exam')));
 
     }
 
@@ -278,7 +278,7 @@ class AdminController extends Controller
             $std->password = $request->password;
 
         $std->update();
-        echo json_encode(array('status'=>'true','message'=>'Successfully updated','reload'=>url('admin/manage_students')));
+        echo json_encode(array('status'=>'true','message'=>'Actualizado con Éxito','reload'=>url('admin/manage_students')));
     }
 
 
@@ -417,7 +417,7 @@ class AdminController extends Controller
 
         $q->update();
 
-        echo json_encode(array('status'=>'true','message'=>'successfully updated','reload'=>url('admin/add_questions/'.$q->exam_id)));
+        echo json_encode(array('status'=>'true','message'=>'Actualizado con Éxito','reload'=>url('admin/add_questions/'.$q->exam_id)));
 
     }
 

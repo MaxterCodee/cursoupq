@@ -1,7 +1,6 @@
 @extends('layouts.student')
 @section('title','Cursos')
 @section('content')
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 
  <!-- Content Wrapper. Contains page content -->
@@ -43,8 +42,8 @@
       <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
               <header class="mb-4 lg:mb-6 not-format">
-
-                  <h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> PLANTILLA cursos4 </strong></h1>
+                  <br>
+                  <h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> INDUSTRIA AUTOMOTRIZ EN MÉXICO </strong></h1>
               </header>
 
 
@@ -54,12 +53,14 @@
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
                   <figure>
-                    <img src="/assets/images/auto2.jpeg" class="mx-auto d-block" width="75%" height="auto" alt="">
-                  </figure>
+                    <br>
+                    <iframe width="700" height="380" src="https://www.youtube.com/embed/3NyYIWsnggo" title="Industria automotriz en México: una potencia mundial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  </figure>
                                   </div>
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
-                  <p class="lead">TEXTO AQUI</p>
+                  <p class="lead"><strong> La cercanía de México con Estados Unidos</strong> es un factor clave en el crecimiento de la industria automotriz en el país. Esta ubicación geográfica permite una fácil conexión con las plantas de fabricación de automóviles y proveedores en Estados Unidos, lo que reduce significativamente los costos de transporte y logística.                  </p>
+                  <p class="lead">Además,<strong> la eficiencia operacional </strong>de las empresas automotrices en México es impresionante. Las empresas han implementado sistemas de gestión de calidad de acuerdo con las normas internacionales y se esfuerzan por mejorar continuamente sus procesos y controles. Esto ha llevado a un aumento en la calidad de los productos, una disminución en los tiempos de producción y una reducción en los costos de fabricación.                  </p>
+                  <p class="lead"><strong> La alta productividad </strong>es otro aspecto importante del crecimiento de la industria automotriz en México. La fuerza laboral mexicana es altamente calificada y tiene una gran experiencia en la producción de automóviles y piezas de automóviles. Además, las empresas han implementado tecnologías avanzadas y equipos modernos para mejorar la eficiencia y la productividad.                  </p>
                 </div>
               </div>
 
@@ -71,14 +72,13 @@
               <div class="row">
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
-                  <h1 class="text-xl font-bold text-gray-900 dark:text-white">SUBTEMA AQUI</h1><br>
-                  <p class="lead">TEXto aqui </p>
-
+                  <p class="lead">Por último, México cuenta con una fuerza laboral altamente capacitada en <strong> habilidades técnicas </strong>relacionadas con la industria automotriz. Las universidades y escuelas técnicas en el país ofrecen programas de capacitación en ingeniería automotriz y tecnología de fabricación de automóviles, lo que ha resultado en una fuerza laboral calificada y altamente capacitada que ha ayudado a impulsar el crecimiento de la industria en el país.                  </p>
+                  <p class="lead">Además, <strong> México cuenta con tratados comerciales firmados con 46 países</strong>, lo que ha permitido un mayor acceso a los mercados internacionales y una mayor inversión extranjera en la industria automotriz del país. En conjunto, estos factores han llevado a un crecimiento significativo de la industria automotriz en México en los últimos años.                  </p>
                 </div>
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
                   <figure>
-                    <img src="/assets/images/auto21.png" class="mx-auto d-block" width="90%" height="auto" alt="">
+                    <img src="/assets/images/tb.png" class="mx-auto d-block" width="90%" height="auto" alt="">
                   </figure>
                 </div>
               </div>
@@ -91,13 +91,18 @@
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
                   <figure>
-                    <img src="/assets/images/apqp.jpg" class="mx-auto d-block" width="72%" height="auto" alt="">
+                    <br><br>
+                    <img src="/assets/images/qro1.jpg" class="mx-auto d-block" width="85%" height="auto" alt="">
                   </figure>
                 </div>
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
 
-                  <p class="lead"> TEXTO <strong> DE PRUEBA AQUI</strong></p>
+                  <p class="lead"><strong>La industria automotriz en México es uno de los pilares de la economía nacional, representando casi el 4% del PIB.</strong> Además, <strong> es una de las industrias que más empleos genera en el país, con más de 930 mil personas trabajando en el sector</strong>. Esto ha tenido un impacto positivo en la economía, ya que ha ayudado a reducir la tasa de desempleo en el país.                  </p>
+                  <p class="lead">La inversión extranjera directa es otro factor importante en la industria automotriz de México. Según datos del Banco de México, en 2020, <strong> la inversión extranjera directa en el sector fue de 5,367 millones de dólares</strong>. Esto demuestra que México es un lugar atractivo para invertir en la industria automotriz debido a su ubicación geográfica estratégica, mano de obra calificada y acuerdos comerciales internacionales.                  </p>
+                  <p class="lead"><strong> México es el séptimo país productor de automóviles a nivel mundial</strong> y el primero en América Latina. Esto se debe en gran parte a la presencia de importantes empresas automotrices internacionales que han establecido plantas en el país. Algunas de las empresas más importantes en la industria automotriz en México son General Motors, Ford, Nissan, Toyota, Honda y Volkswagen. La producción de automóviles en México ha impulsado el desarrollo de la economía nacional y ha aumentado la presencia de México en el mercado global.                  </p>
+                  <p class="lead"></p>
+
 
                 </div>
               </div>
@@ -108,17 +113,23 @@
 
               <div class="row">
                 <div class="col-sm-6">
-                  <!-- Contenedor 1 -->
-                  <p class="lead"> TEXTO <strong> DE PRUEBA AQUI</strong></p>
-
+                <!-- Contenedor 1 -->
+                <figure>
+                    <img src="/assets/images/mexico.png" class="mx-auto d-block" width="90%" height="auto" alt="">
+                  </figure>
                 </div>
                 <div class="col-sm-6">
-                  <!-- Contenedor 2 -->
-                    <figure>
-                        <img src="/assets/images/auto23.jpg" class="mx-auto d-block" width="72%" height="auto" alt="">
-                    </figure>
+                <!-- Contenedor 2 -->
+                <figure>
+                    <img src="/assets/images/mexico1.png" class="mx-auto d-block" width="80%" height="auto" alt="">
+                </figure>
                 </div>
-              </div>
+            </div>
+            <figure>
+                <img src="/assets/images/mexico2.png" class="mx-auto d-block" width="50%" height="auto" alt="">
+            </figure>
+
+
 
 
 

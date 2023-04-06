@@ -57,7 +57,7 @@
                                    <td>
                                        <a href="{{ url('admin/edit_exam/'.$exam['id'])}}" class="btn btn-info">Editar</a>
                                        <a href="{{ url('admin/delete_exam/'.$exam['id'])}}" class="btn btn-danger">Eliminar</a>
-                                       <a href="{{ url('admin/add_questions/'.$exam['id'])}}" class="btn btn-primary">+  Pregunta</a>
+                                       <a href="{{ url('admin/add_questions/'.$exam['id'])}}" class="btn btn-primary">Preguntas</a>
                                    </td>
                                </tr>
                            @endforeach
@@ -84,7 +84,7 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Add new Exam</h4>
+          <h4 class="modal-title">Agregar Examen</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
@@ -92,28 +92,28 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">Enter title</label>
+                            <label for="">Título</label>
                             {{ csrf_field()}}
-                            <input type="text" required="required" name="title" placeholder="Enter title" class="form-control">
+                            <input type="text" required="required" name="title" placeholder="Título" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">Enter Date</label>
+                            <label for="">Fecha</label>
                             <input type="date" required="required" name="exam_date"  class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-12">
                       <div class="form-group">
-                          <label for="">Enter duration (in minutes)</label>
+                          <label for="">Duración (en minutos)</label>
                           <input type="text" required="required" name="exam_duration"  class="form-control">
                       </div>
                   </div>
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">Select category</label>
+                            <label for="">Seleccionar Categoría</label>
                             <select class="form-control" required="required" name="exam_category">
-                                <option value="">Select</option>
+                                <option value="">Seleccionar</option>
                                 @foreach ($category as $cat)
                                 <option value="{{ $cat['id']}}">{{ $cat['name']}}</option>
                                 @endforeach
@@ -122,7 +122,7 @@
                     </div>
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <button class="btn btn-primary">Add</button>
+                            <button class="btn btn-primary">Agregar</button>
                         </div>
                     </div>
                 </div>

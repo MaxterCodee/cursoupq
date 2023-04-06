@@ -1,7 +1,6 @@
 @extends('layouts.student')
 @section('title','Cursos')
 @section('content')
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 
  <!-- Content Wrapper. Contains page content -->
@@ -35,17 +34,18 @@
   </div>
   <!-- /.content-wrapper -->
 
+  <body>
 
-  <div class="flex  items-center">
-    <div class="inline-block p-2 rounded-lg bg-gray-200 mx-auto">
 
-    <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
-      <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
-          <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-              <header class="mb-4 lg:mb-6 not-format">
-
-                <br><h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> Antes de empezar</strong></h1>
-              </header>
+  <div class="flex items-center justify-center">
+    <div class="w-full">
+      <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
+        <!-- contenido aquí -->
+        <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
+          <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert justify-end">
+            <header class="mb-4 lg:mb-6 not-format">
+              <br><h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> Antes de empezar</strong></h1>
+            </header>
 
 
 
@@ -107,6 +107,7 @@
 
     </div>
     </div>
+</body>
 
 
 @endsection

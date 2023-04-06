@@ -127,7 +127,7 @@
                with font-awesome or any other icon font library -->
 
             <li class="nav-item">
-                <a href="{{ url('student/dashboard')}}" class="nav-link">
+                <a href="{{ url('student/dash')}}" class="nav-link">
                     <img src="{{ url('assets/images/home.svg')}}" alt="" style="width: 12%; height: auto;">
                     <p>Dashboard</p>
                 </a>

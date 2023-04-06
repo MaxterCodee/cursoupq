@@ -1,7 +1,6 @@
 @extends('layouts.student')
 @section('title','Cursos')
 @section('content')
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 
  <!-- Content Wrapper. Contains page content -->

@@ -1,7 +1,6 @@
 @extends('layouts.student')
 @section('title','Cursos')
 @section('content')
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 
  <!-- Content Wrapper. Contains page content -->
@@ -43,8 +42,8 @@
       <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
               <header class="mb-4 lg:mb-6 not-format">
-
-                  <h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> PLANTILLA cursos7 </strong></h1>
+                  <br>
+                  <h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong>  PARA CONCLUIR </strong></h1>
               </header>
 
 
@@ -59,7 +58,8 @@
                                   </div>
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
-                  <p class="lead">TEXTO AQUI</p>
+                  <p class="lead"><strong> El curso aborda una serie de temas relacionados con la industria automotriz, que incluyen la clasificación de proveedores en TIER 1, TIER 2 y TIER 3, así como la definición de OEM's (Original Equipment Manufacturers) y su ubicación geográfica. También se destaca la importancia de la industria automotriz en México y en Querétaro, y cómo esta región se ha convertido en un aliado estratégico para la industria automotriz en el país.</strong>                  </p>
+                  <p class="lead"> <strong> Además, el curso explora el acento automotriz en Querétaro y cómo este ha influido en el crecimiento de la industria en la región. Se pueden discutir otros temas relacionados con la industria automotriz, como las tendencias actuales en tecnología automotriz, la sostenibilidad y las emisiones, la seguridad vehicular y la cadena de suministro global.       </strong>           </p>
                 </div>
               </div>
 
@@ -71,61 +71,21 @@
               <div class="row">
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
-                  <h1 class="text-xl font-bold text-gray-900 dark:text-white">SUBTEMA AQUI</h1><br>
-                  <p class="lead">TEXto aqui </p>
-
-                </div>
-                <div class="col-sm-6">
-                  <!-- Contenedor 2 -->
-                  <figure>
-                    <img src="/assets/images/auto21.png" class="mx-auto d-block" width="90%" height="auto" alt="">
-                  </figure>
-                </div>
-              </div>
-
-
-              <br><br>
-
-
-              <div class="row">
-                <div class="col-sm-6">
-                  <!-- Contenedor 1 -->
-                  <figure>
-                    <img src="/assets/images/apqp.jpg" class="mx-auto d-block" width="72%" height="auto" alt="">
-                  </figure>
+                  <h1 class="text-xl font-bold text-gray-900 dark:text-white">Aplicación de Examen</h1><br>
                 </div>
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
 
-                  <p class="lead"> TEXTO <strong> DE PRUEBA AQUI</strong></p>
+
+
+
+
 
                 </div>
               </div>
 
 
               <br><br>
-
-
-              <div class="row">
-                <div class="col-sm-6">
-                  <!-- Contenedor 1 -->
-                  <p class="lead"> TEXTO <strong> DE PRUEBA AQUI</strong></p>
-
-                </div>
-                <div class="col-sm-6">
-                  <!-- Contenedor 2 -->
-                    <figure>
-                        <img src="/assets/images/auto23.jpg" class="mx-auto d-block" width="72%" height="auto" alt="">
-                    </figure>
-                </div>
-              </div>
-
-
-
-
-
-              <br><br>
-
 
 
 
@@ -133,7 +93,7 @@
                 Anterior
               </a>
 
-              <a href="{{ url('student/cursos8') }}" class="btn btn-primary">
+              <a href="{{ url('student/dashboard') }}" class="btn btn-primary">
                 Siguiente
               </a>
               <br><br>

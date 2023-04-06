@@ -1,7 +1,6 @@
 @extends('layouts.student')
 @section('title','Cursos')
 @section('content')
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 
  <!-- Content Wrapper. Contains page content -->
@@ -42,23 +41,41 @@
     <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
       <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-              <header class="mb-4 lg:mb-6 not-format">
 
-                  <br><h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> TERMINOLOGÍA </strong></h1>
-              </header>
 
-              <p class="lead"><strong>AIAG:</strong> Automotive Industry Action Group            </p>
-              <p class="lead"><strong>ANFIA:</strong> Asociación Nacional de la Industria Automotriz Italiana            </p>
-              <p class="lead"><strong>ANFIA:</strong> Asociación Nacional de la Industria Automotriz Italiana            </p>
-              <p class="lead"><strong>FIEV:</strong> Federación de la Industria de Equipamiento Vehicular            </p>
-              <p class="lead"><strong>SMMT:</strong> Society of Motor Manufacturers and Traders              </p>
-              <p class="lead"><strong>VDA:</strong> Verband der Automobilindustrie (Asociación de la Industria Automotriz Alamana)</p>
-              <p class="lead"><strong>ANPACT:</strong> Asociación Nacional de Productores de Autobuses, Camiones y Tractocamiones.              </p>
-              <p class="lead"><strong>AMDA:</strong> Asociación Mexicana de Distribuidores de Automotores.              </p>
-              <p class="lead"><strong>INA:</strong> Industria Nacional de Autopartes.              </p>
-              <p class="lead"><strong>OEM:</strong> Original Equipment Manufacture (Fabricante de equipos originales).              </p><br>
+            <div class="row">
+                <div class="col-sm-6">
+                  <!-- Contenedor 1 -->
+                  <header class="mb-4 lg:mb-6 not-format">
 
-              <br>
+                    <br><h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> TERMINOLOGÍA </strong></h1>
+                </header>
+
+                <p class="lead"><strong>AIAG:</strong> Automotive Industry Action Group            </p>
+                <p class="lead"><strong>ANFIA:</strong> Asociación Nacional de la Industria Automotriz Italiana            </p>
+                <p class="lead"><strong>ANFIA:</strong> Asociación Nacional de la Industria Automotriz Italiana            </p>
+                <p class="lead"><strong>FIEV:</strong> Federación de la Industria de Equipamiento Vehicular            </p>
+                <p class="lead"><strong>SMMT:</strong> Society of Motor Manufacturers and Traders              </p>
+                <p class="lead"><strong>VDA:</strong> Verband der Automobilindustrie (Asociación de la Industria Automotriz Alamana)</p>
+                <p class="lead"><strong>ANPACT:</strong> Asociación Nacional de Productores de Autobuses, Camiones y Tractocamiones.              </p>
+                <p class="lead"><strong>AMDA:</strong> Asociación Mexicana de Distribuidores de Automotores.              </p>
+                <p class="lead"><strong>INA:</strong> Industria Nacional de Autopartes.              </p>
+                <p class="lead"><strong>OEM:</strong> Original Equipment Manufacture (Fabricante de equipos originales).              </p><br>
+
+                <br>
+                                  </div>
+                <div class="col-sm-6">
+                  <!-- Contenedor 2 -->
+                  <br><br><br>
+                  <iframe width="700" height="360" src="https://www.youtube.com/embed/RiNTtxZRpYk" title="¿Que son las Core Tools?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+
+
+
+
+
+
 
               <div class="row">
                 <div class="col-sm-6">
@@ -187,11 +204,17 @@
               <div class="row">
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
-                  <p class="lead"> </p>
+                  <br><br><p class="lead"><strong> Control Plan: Es una herramienta utilizada para planificar y documentar los controles necesarios para garantizar la calidad del producto o proceso.</strong> Esta herramienta identifica los puntos críticos del proceso y establece los procedimientos necesarios para garantizar la calidad del producto.</p>
+                  <p class="lead">Además, el Control Plan también se utiliza para establecer responsabilidades y definir los recursos necesarios para implementar y mantener los controles de calidad en el proceso. La herramienta incluye una lista de verificación de los pasos críticos, los límites de control, los criterios de aceptación y rechazo, así como los planes de contingencia en caso de que se presente algún problema en el proceso. Con el Control Plan, se puede garantizar que los productos cumplen con los estándares de calidad y que el proceso de producción se encuentra bajo control. De esta manera, se reduce el riesgo de producir productos defectuosos y se asegura la satisfacción del cliente.</p>
                 </div>
 
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
+                  <br><figure>
+                    <img src="/assets/images/pc.jpg" class="mx-auto d-block" width="90%" height="auto" alt="">
+                </figure>
+
+
                 </div>
               </div>
 

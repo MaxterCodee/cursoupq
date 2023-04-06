@@ -76,7 +76,7 @@ Route::prefix('student')->middleware('theme:dashboard')->name('student.')->group
 
 
     Route::middleware(['auth:web'])->group(function(){
-        Route::get('/dashboard',[StudentOperation::class,'dashboard']);
+        Route::get('/dash',[StudentOperation::class,'dash']);
 
         Route::get('/exam',[StudentOperation::class,'exam']);
         Route::get('/join_exam/{id}',[StudentOperation::class,'join_exam']);
@@ -95,6 +95,7 @@ Route::prefix('student')->middleware('theme:dashboard')->name('student.')->group
         Route::get('/cursos6',[StudentOperation::class,'cursos6']);
         Route::get('/cursos7',[StudentOperation::class,'cursos7']);
         Route::get('/cursos8',[StudentOperation::class,'cursos8']);
+        Route::get('/dashboard',[StudentOperation::class,'dashboard']);
 
 
 

@@ -11,11 +11,12 @@ const mix = require('laravel-mix');
  |
  */
 
- let theme = process.env.npm_config_theme;
+mix.js('resources/js/app.js', 'public/js')
+    .postCss('resources/css/app.css', 'public/css', [
+        require('postcss-import'),
+        require('tailwindcss'),
+    ]);
 
- if(theme) {
-    require(`${__dirname}/themes/${theme}/webpack.mix.js`);
- } else {
-     // default theme to compile if theme is not specified
-   require(`${__dirname}/themes/theme-name/webpack.mix.js`);
- }
+if (mix.inProduction()) {
+    mix.version();
+}

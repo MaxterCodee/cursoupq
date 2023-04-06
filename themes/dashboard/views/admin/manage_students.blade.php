@@ -133,9 +133,9 @@
                     </div> --}}
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">Select exam</label>
+                            <label for="">Examen</label>
                             <select class="form-control" required="required" name="exam">
-                                <option value="">Select</option>
+                                <option value="">Seleccionar</option>
                                 @foreach ($exams as $exam)
                                     <option value="{{ $exam['id']}}">{{ $exam['title']}}</option>
                                 @endforeach
@@ -144,13 +144,13 @@
                     </div>
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">password</label>
-                            <input type="password" required="required" name="password" placeholder="Enter password" class="form-control">
+                            <label for="">Contraseña</label>
+                            <input type="password" required="required" name="password" placeholder="Introduzca una contraseña para el alumno" class="form-control">
                         </div>
                     </div>
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <button class="btn btn-primary">Add</button>
+                            <button class="btn btn-primary">Agregar</button>
                         </div>
                     </div>
                 </div>
