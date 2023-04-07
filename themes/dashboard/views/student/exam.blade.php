@@ -34,8 +34,8 @@
                             <tr>
                                 <th>#</th>
                                 <th>Título del examen</th>
-                                <th>Fecha del examen</th>
                                 <th>Estado</th>
+                                <th>Fecha del examen</th>
                                 <th>Resultado</th>
                                 <th>Acciones</th>
                             </tr>
@@ -47,7 +47,6 @@
                             <tr>
                               <td>1</td>
                               <td>{{ $std_info['title']}}</td>
-                              <td>{{ $std_info['exam_date']}}</td>
                               <td><?php
                                 if(strtotime($std_info['exam_date']) < strtotime(date('Y-m-d'))){
                                   echo "Date expired";
@@ -62,6 +61,7 @@
                                   echo "Pending";
                                 }
                               ?></td>
+                              <td> {{ $std_info['exam_date']}} </td>
                               <td>
                                 <?php
                                     if($std_info['exam_joined']==1){

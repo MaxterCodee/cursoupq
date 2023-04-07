@@ -97,7 +97,7 @@ class StudentOperation extends Controller
             $checkuser = user_exam::where('user_id',Session::get('id'))->where('exam_id',$id)->get()->first();
 
             if($checkuser){
-                $arr = array('status'=>'false','message'=>'Already applied, see your exam section');
+                $arr = array('status'=>'false','message'=>'Dirigete a ""');
             }
             else
             {
@@ -110,7 +110,7 @@ class StudentOperation extends Controller
 
                 $exam_user->save();
 
-                $arr = array('status'=>'true','message'=>'applied successfully','reload'=>url('student/dashboard'));
+                $arr = array('status'=>'true','message'=>'Dirigete a "Exámenes"','reload'=>url('student/dashboard'));
             }
 
             echo json_encode($arr);
@@ -129,6 +129,37 @@ class StudentOperation extends Controller
 
             return view('student.view_result',$data);
     }
+    //DIPLOMA
+    public function diploma($id){
+
+        $data['result_info'] = Oex_result::where('exam_id',$id)->where('user_id',Session::get('id'))->get()->first();
+
+        $data['student_info'] = User::where('id',Session::get('id'))->get()->first();
+
+        $data['exam_info']=Oex_exam_master::where('id',$id)->get()->first();
+
+        return view('student.diploma',$data);
+}
+
+    //Diploma
+    // public function diploma($id){
+    //     $data['result_info'] = Oex_result::where('exam_id',$id)->where('user_id',Session::get('id'))->get()->first();
+    //     $data['student_info'] = User::where('id',Session::get('id'))->get()->first();
+    //     $data['exam_info']=Oex_exam_master::where('id',$id)->get()->first();
+    //     return view('student.diploma',$data);
+    // }
+
+    //View Diploma
+    // public function diploma($id){
+
+    //     $data['result_info'] = Oex_result::where('exam_id',$id)->where('user_id',Session::get('id'))->get()->first();
+
+    //     $data['student_info'] = User::where('id',Session::get('id'))->get()->first();
+
+    //     $data['exam_info']=Oex_exam_master::where('id',$id)->get()->first();
+
+    //     return view('student.diploma',$data);
+    // }
 
 
     //View answer
@@ -185,6 +216,7 @@ class StudentOperation extends Controller
         public function dash(){
             return view('student.dash');
         }
+
 
 
 

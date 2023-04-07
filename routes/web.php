@@ -85,6 +85,8 @@ Route::prefix('student')->middleware('theme:dashboard')->name('student.')->group
         Route::get('/apply_exam/{id}',[StudentOperation::class,'apply_exam']);
         Route::get('/view_result/{id}',[StudentOperation::class,'view_result']);
         Route::get('/view_answer/{id}',[StudentOperation::class,'view_answer']);
+        Route::get('/diploma/{id}',[StudentOperation::class,'diploma']);
+
 
         Route::get('/cursos',[StudentOperation::class,'cursos']);
         Route::get('/cursos1',[StudentOperation::class,'cursos1']);
@@ -96,6 +98,7 @@ Route::prefix('student')->middleware('theme:dashboard')->name('student.')->group
         Route::get('/cursos7',[StudentOperation::class,'cursos7']);
         Route::get('/cursos8',[StudentOperation::class,'cursos8']);
         Route::get('/dashboard',[StudentOperation::class,'dashboard']);
+        Route::get('/diploma',[StudentOperation::class,'diploma']);
 
 
 
