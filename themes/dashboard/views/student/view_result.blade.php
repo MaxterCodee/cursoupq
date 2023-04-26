@@ -39,6 +39,10 @@
                                 <td>{{ $student_info->name}}</td>
                             </tr>
                             <tr>
+                                <td>Matricula : </td>
+                                <td>{{ $student_info->matricula}}</td>
+                            </tr>
+                            <tr>
                                 <td>Correo : </td>
                                 <td>{{ $student_info->email}}</td>
                             </tr>
@@ -75,7 +79,15 @@
                             </tr>
                             <tr>
                                 <td>Diploma : </td>
-                                <td><a href="{{ url('student/diploma/4') }}"  type="button" class="btn btn-info">Ver</a></td>
+                                <td>
+                                    {{-- <a href="{{ url('student/diploma/4') }}"  type="button" class="btn btn-info">Ver</a> --}}
+                                    @if(round(($result_info->yes_ans/($result_info->yes_ans+$result_info->no_ans))*10, 2) >= 7)
+                                    <a href="{{ url('student/diploma/4') }}"  type="button" class="btn btn-info">Ver</a>
+                                    @else
+                                        <p>No aplica</p>
+                                    @endif
+
+                                </td>
                             </tr>
                         </table>
                     </div>

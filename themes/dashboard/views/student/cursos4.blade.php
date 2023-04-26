@@ -41,10 +41,7 @@
     <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
       <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-              <header class="mb-4 lg:mb-6 not-format">
-                  <br>
-                  <h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> INDUSTRIA AUTOMOTRIZ EN MÉXICO </strong></h1>
-              </header>
+
 
 
               <br>
@@ -52,33 +49,14 @@
               <div class="row">
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
-                  <figure>
-                    <br>
-                    <iframe width="700" height="380" src="https://www.youtube.com/embed/3NyYIWsnggo" title="Industria automotriz en México: una potencia mundial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  </figure>
-                                  </div>
-                <div class="col-sm-6">
-                  <!-- Contenedor 2 -->
-                  <p class="lead"><strong> La cercanía de México con Estados Unidos</strong> es un factor clave en el crecimiento de la industria automotriz en el país. Esta ubicación geográfica permite una fácil conexión con las plantas de fabricación de automóviles y proveedores en Estados Unidos, lo que reduce significativamente los costos de transporte y logística.                  </p>
-                  <p class="lead">Además,<strong> la eficiencia operacional </strong>de las empresas automotrices en México es impresionante. Las empresas han implementado sistemas de gestión de calidad de acuerdo con las normas internacionales y se esfuerzan por mejorar continuamente sus procesos y controles. Esto ha llevado a un aumento en la calidad de los productos, una disminución en los tiempos de producción y una reducción en los costos de fabricación.                  </p>
-                  <p class="lead"><strong> La alta productividad </strong>es otro aspecto importante del crecimiento de la industria automotriz en México. La fuerza laboral mexicana es altamente calificada y tiene una gran experiencia en la producción de automóviles y piezas de automóviles. Además, las empresas han implementado tecnologías avanzadas y equipos modernos para mejorar la eficiencia y la productividad.                  </p>
-                </div>
-              </div>
+                  <h1 class="text-xl font-bold text-gray-900 dark:text-white">¿Qué son las "Core Tools"?</h1><br>
+                  <p class="lead"><strong> Las Core Tools</strong>, o Herramientas Básicas de la Calidad, son un conjunto de técnicas y metodologías utilizadas en la gestión de la calidad en la industria manufacturera. Las <strong> Core Tools incluyen seis herramientas principales</strong> que ayudan a garantizar la calidad y eficiencia en los procesos de producción. <strong> Estas herramientas son ampliamente utilizadas en la industria automotriz</strong> y también se aplican en otros sectores como la ingeniería, la gestión de proyectos y la gestión empresarial en general. <strong> Las Core Tools permiten identificar los riesgos, prevenir problemas y mejorar los procesos para producir productos de alta calidad de manera consistente.</strong> La utilización de estas herramientas ayuda a las empresas a cumplir con los requisitos del cliente y a mejorar su reputación en el mercado.                  </p>
 
-
-              <br><br>
-
-
-
-              <div class="row">
-                <div class="col-sm-6">
-                  <!-- Contenedor 1 -->
-                  <p class="lead">Por último, México cuenta con una fuerza laboral altamente capacitada en <strong> habilidades técnicas </strong>relacionadas con la industria automotriz. Las universidades y escuelas técnicas en el país ofrecen programas de capacitación en ingeniería automotriz y tecnología de fabricación de automóviles, lo que ha resultado en una fuerza laboral calificada y altamente capacitada que ha ayudado a impulsar el crecimiento de la industria en el país.                  </p>
-                  <p class="lead">Además, <strong> México cuenta con tratados comerciales firmados con 46 países</strong>, lo que ha permitido un mayor acceso a los mercados internacionales y una mayor inversión extranjera en la industria automotriz del país. En conjunto, estos factores han llevado a un crecimiento significativo de la industria automotriz en México en los últimos años.                  </p>
                 </div>
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
                   <figure>
-                    <img src="/assets/images/tb.png" class="mx-auto d-block" width="90%" height="auto" alt="">
+                    <img src="/assets/images/auto21.png" class="mx-auto d-block" width="70%" height="auto" alt="">
                   </figure>
                 </div>
               </div>
@@ -91,17 +69,14 @@
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
                   <figure>
-                    <br><br>
-                    <img src="/assets/images/qro1.jpg" class="mx-auto d-block" width="85%" height="auto" alt="">
+                    <img src="/assets/images/apqp.jpg" class="mx-auto d-block" width="67%" height="auto" alt="">
                   </figure>
                 </div>
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
 
-                  <p class="lead"><strong>La industria automotriz en México es uno de los pilares de la economía nacional, representando casi el 4% del PIB.</strong> Además, <strong> es una de las industrias que más empleos genera en el país, con más de 930 mil personas trabajando en el sector</strong>. Esto ha tenido un impacto positivo en la economía, ya que ha ayudado a reducir la tasa de desempleo en el país.                  </p>
-                  <p class="lead">La inversión extranjera directa es otro factor importante en la industria automotriz de México. Según datos del Banco de México, en 2020, <strong> la inversión extranjera directa en el sector fue de 5,367 millones de dólares</strong>. Esto demuestra que México es un lugar atractivo para invertir en la industria automotriz debido a su ubicación geográfica estratégica, mano de obra calificada y acuerdos comerciales internacionales.                  </p>
-                  <p class="lead"><strong> México es el séptimo país productor de automóviles a nivel mundial</strong> y el primero en América Latina. Esto se debe en gran parte a la presencia de importantes empresas automotrices internacionales que han establecido plantas en el país. Algunas de las empresas más importantes en la industria automotriz en México son General Motors, Ford, Nissan, Toyota, Honda y Volkswagen. La producción de automóviles en México ha impulsado el desarrollo de la economía nacional y ha aumentado la presencia de México en el mercado global.                  </p>
-                  <p class="lead"></p>
+                  <p class="lead">1. <strong> Planificación avanzada de la calidad del producto (APQP)</strong>: es un proceso estructurado utilizado para desarrollar y lanzar nuevos productos o procesos. APQP es una herramienta utilizada para planificar, definir y documentar los requisitos del cliente y los objetivos del producto, identificar riesgos y establecer planes de acción.</p>
+                  <br><p class="lead"><strong> APQP</strong> también es una herramienta utilizada para establecer los procesos necesarios para garantizar que los productos o procesos cumplan con los requisitos legales y reglamentarios aplicables. <strong> Este proceso se divide en cinco fases</strong>: planificación y definición del programa, diseño y desarrollo del producto, diseño y desarrollo del proceso, validación del producto y del proceso, y lanzamiento del producto. <strong> APQP es una herramienta eficaz para garantizar que los productos o procesos se desarrollen y lancen en tiempo y forma</strong>, y que cumplan con los requisitos de calidad y seguridad necesarios.</p>
 
 
                 </div>
@@ -111,31 +86,6 @@
               <br><br>
 
 
-              <div class="row">
-                <div class="col-sm-6">
-                <!-- Contenedor 1 -->
-                <figure>
-                    <img src="/assets/images/mexico.png" class="mx-auto d-block" width="90%" height="auto" alt="">
-                  </figure>
-                </div>
-                <div class="col-sm-6">
-                <!-- Contenedor 2 -->
-                <figure>
-                    <img src="/assets/images/mexico1.png" class="mx-auto d-block" width="80%" height="auto" alt="">
-                </figure>
-                </div>
-            </div>
-            <figure>
-                <img src="/assets/images/mexico2.png" class="mx-auto d-block" width="50%" height="auto" alt="">
-            </figure>
-
-
-
-
-
-
-
-              <br><br>
 
 
 

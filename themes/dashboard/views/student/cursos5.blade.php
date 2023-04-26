@@ -41,74 +41,42 @@
     <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
       <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-              <header class="mb-4 lg:mb-6 not-format">
-                  <br>
-                  <h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> INDUSTRIA AUTOMOTRIZ EN QUERÉTARO </strong></h1>
-              </header>
+            <div class="row">
+                <div class="col-sm-6">
+                    <br><br>
+                  <!-- Contenedor 1 -->
+                  <p class="lead"><strong>2. Análisis de Modo y Efecto de Falla (FMEA)</strong>: es una técnica sistemática para identificar y evaluar los posibles modos de falla y sus efectos en un producto o proceso. El análisis <strong> FMEA ayuda a identificar los riesgos y oportunidades de mejora para prevenir problemas antes de que ocurran</strong>.                </p>
+                  <br><p class="lead"><strong> El análisis FMEA se utiliza comúnmente en la industria automotriz</strong>, aeroespacial y de dispositivos médicos, así como en otras industrias que requieren una alta fiabilidad y calidad en sus productos o procesos. El análisis FMEA se lleva a cabo en equipos multidisciplinarios y se realiza en diferentes etapas del ciclo de vida del producto o proceso, desde el diseño hasta la producción y el servicio posventa. La identificación temprana de los posibles modos de falla y la implementación de medidas preventivas o correctivas adecuadas puede ayudar a reducir los costos de producción y aumentar la satisfacción del cliente. El análisis FMEA es una herramienta efectiva para mejorar la calidad y la seguridad de los productos o procesos, y para mantener la reputación de una empresa en el mercado.</p>
 
-
-              <br>
+                </div>
+                <div class="col-sm-6">
+                  <!-- Contenedor 2 -->
+                    <figure>
+                        <img src="/assets/images/fmea.png" class="mx-auto d-block" width="65%" height="auto" alt="">
+                    </figure>
+                </div>
+              </div>
 
               <div class="row">
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
-                  <figure>
-                    <iframe width="750" height="420" src="https://www.youtube.com/embed/95CQXR0eFnY" title="Querétaro importante fabricante automotriz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  </figure>
-                                  </div>
+                <figure>
+                    <img src="/assets/images/ppap.png" class="mx-auto d-block" width="80%" height="auto" alt="">
+                </figure>
+
+                </div>
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
-                  <br>
-                  <p class="lead">La industria automotriz en Querétaro <strong> es uno de los sectores más importantes para la economía del estado</strong>. Se destaca por ser el sector que genera más puestos de trabajo, con <strong> más de 70,000 empleos en toda la cadena de valor</strong>. Esto se debe a la presencia de numerosas empresas de gran envergadura que se han establecido en la entidad en las últimas décadas.                  </p>
-                  <p class="lead">Asimismo, la industria automotriz de Querétaro representa una importante contribución a las exportaciones del estado. Se estima que el sector <strong> representa el 28.5% de las exportaciones totales de Querétaro</strong>, lo que demuestra su importancia como fuente de ingresos para la entidad.                  </p>
-                  <p class="lead">En cuanto a la producción de vehículos, <strong> Querétaro cuenta con cuatro plantas ensambladoras de camiones y una de tractores</strong>. Esto ha permitido a la entidad consolidarse como un importante polo de producción de vehículos comerciales en México.                  </p>
+                  <p class="lead"><strong>3. PPAP (Production Part Approval Process)</strong>: Es un proceso que se utiliza para garantizar que los productos cumplan con los requisitos del cliente antes de que se envíen al mercado. Esta herramienta incluye la validación de procesos, la verificación de la calidad del producto y la documentación necesaria para respaldar el proceso.</p>
+                  <br><p class="lead"> <strong> En el sector automotriz, el PPAP es una herramienta esencial para garantizar la calidad y seguridad de los productos.</strong> Los proveedores de piezas y componentes deben cumplir con los estándares de calidad establecidos por los fabricantes de automóviles, y el PPAP se utiliza para demostrar que los productos cumplen con estos requisitos antes de que se integren en los vehículos.                  </p>
 
                 </div>
               </div>
 
 
-              <br><br>
-
-
-
-              <div class="row">
-                <div class="col-sm-6">
-                  <!-- Contenedor 1 -->
-                  <h1 class="text-xl font-bold text-gray-900 dark:text-white">SUBTEMA AQUI</h1><br>
-                  <p class="lead">Además, la industria automotriz de Querétaro se caracteriza por contar con una amplia red de proveedores. Actualmente, <strong> existen en la entidad 104 proveedores Tier 1 y más de 200 proveedores Tier 2</strong>, lo que demuestra la presencia de una cadena de suministro robusta y especializada.                  </p>
-                  <p class="lead">En resumen, la industria automotriz en Querétaro es un sector clave para la economía del estado, ya que genera una importante cantidad de empleos y representa una contribución significativa a las exportaciones. La presencia de plantas ensambladoras y una amplia red de proveedores demuestran la importancia de esta industria en la región.                  </p>
-                  <p class="lead"></p>
-
-                </div>
-                <div class="col-sm-6">
-                  <!-- Contenedor 2 -->
-                  <figure>
-                    <img src="/assets/images/qroo.png" class="mx-auto d-block" width="75%" height="auto" alt="">
-                  </figure>
-                </div>
-              </div>
 
 
               <br><br>
-
-
-
-              <h1 class="text-xl font-bold text-gray-900 dark:text-white">DATO CURIOSO</h1>
-
-
-
-
-              <figure>
-                <img src="/assets/images/dato.png" class="mx-auto d-block" width="72%" height="auto" alt="">
-              </figure>
-
-
-
-
-
-              <br><br>
-
-
-
 
               <a href="{{ url('student/cursos4') }}" class="btn btn-primary">
                 Anterior

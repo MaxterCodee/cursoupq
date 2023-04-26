@@ -10,6 +10,8 @@ use App\Models\Oex_question_master;
 use App\Models\Oex_result;
 use App\Models\User;
 use App\Models\user_exam;
+use Dompdf\Dompdf;
+use Barryvdh\DomPDF\Facade as PDF;
 
 class StudentOperation extends Controller
 {
@@ -21,6 +23,13 @@ class StudentOperation extends Controller
         ->orderBy('id','desc')->where('oex_exam_masters.status','1')->get()->toArray();
         return view('student.dashboard',$data);
     }
+    //PDF
+    public function generatePDF()
+    {
+        $pdf = PDF::loadView('student.diploma');
+        return $pdf->stream('diploma.pdf');
+    }
+
 
 
     //Exam page
@@ -141,6 +150,8 @@ class StudentOperation extends Controller
         return view('student.diploma',$data);
 }
 
+
+
     //Diploma
     // public function diploma($id){
     //     $data['result_info'] = Oex_result::where('exam_id',$id)->where('user_id',Session::get('id'))->get()->first();
@@ -212,6 +223,95 @@ class StudentOperation extends Controller
         public function cursos8(){
             return view('student.cursos8');
         }
+        //Curso9 page
+        public function cursos9(){
+            return view('student.cursos9');
+        }
+        //Curso10 page
+        public function cursos10(){
+            return view('student.cursos10');
+        }
+        //Curso11 page
+        public function cursos11(){
+            return view('student.cursos11');
+        }
+        //Curso12 page
+        public function cursos12(){
+            return view('student.cursos12');
+        }
+        //Curso13 page
+        public function cursos13(){
+            return view('student.cursos13');
+        }
+        //Curso14 page
+        public function cursos14(){
+            return view('student.cursos14');
+        }
+        //Curso15 page
+        public function cursos15(){
+            return view('student.cursos15');
+        }
+        //Curso16 page
+        public function cursos16(){
+            return view('student.cursos16');
+        }
+        //Curso17 page
+        public function cursos17(){
+            return view('student.cursos17');
+        }
+        //Curso18 page
+        public function cursos18(){
+            return view('student.cursos18');
+        }
+        //Curso19 page
+        public function cursos19(){
+            return view('student.cursos19');
+        }
+        //Curso20 page
+        public function cursos20(){
+            return view('student.cursos20');
+        }
+        //Curso21 page
+        public function cursos21(){
+            return view('student.cursos21');
+        }
+        //Curso22 page
+        public function cursos22(){
+            return view('student.cursos22');
+        }
+        //Curso23 page
+        public function cursos23(){
+            return view('student.cursos23');
+        }
+        //Curso24 page
+        public function cursos24(){
+            return view('student.cursos24');
+        }
+        //Curso25 page
+        public function cursos25(){
+            return view('student.cursos25');
+        }
+        //Curso26 page
+        public function cursos26(){
+            return view('student.cursos26');
+        }
+        //Curso27 page
+        public function cursos27(){
+            return view('student.cursos27');
+        }
+        //Curso28 page
+        public function cursos28(){
+            return view('student.cursos28');
+        }
+        //Curso29 page
+        public function cursos29(){
+            return view('student.cursos29');
+        }
+        //Curso30 page
+        public function cursos30(){
+            return view('student.cursos30');
+        }
+
         //dash
         public function dash(){
             return view('student.dash');

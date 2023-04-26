@@ -80,13 +80,14 @@ setlocale(LC_TIME, 'es_ES.utf8');
 
                                 <div class="col-sm-20">
                                     <h1 class="display-4"><strong><img src="{{ url('assets/images/Group2.svg')}}" alt="" style="width: 17%; height: auto;"> Universidad Politécnica de Querétaro</strong></h1>
-                                    <h1 class="display-5 text-center"><strong> Diploma de finalización de curso <br> "Introducción a la Industria Automotriz"</strong></h1>
+                                    {{-- <h1 class="display-5 text-center"><strong> Diploma de finalización de curso <br> "Introducción a la Industria Automotriz"</strong></h1> --}}
                                     <br>
-                                    <h1 class="display-6 text-center">Instructor:  Dr. Juan Manuel García Guendulain</h1>
-                                    <h1 class="display-5 text-center"><strong> Se certifica que:</strong></h1>
-                                    <h1 class="display-3 text-center">{{ $student_info->name}}</h1>
+                                    {{-- <h1 class="display-6 text-center">Instructor:  Dr. Juan Manuel García Guendulain</h1> --}}
+                                    <h1 class="display-5 text-center"> Se certifica que</h1>
                                     <br>
-                                    <h1 class="text-center h2">ha completado satisfactoriamente el curso de "Introducción a la Industria Automotriz" con una calificación de:ㅤ <strong> {{ round(($result_info->yes_ans/($result_info->yes_ans+$result_info->no_ans))*10, 2) }}                                    </strong></h1>
+                                    <h1 class="display-3 text-center"><strong> {{ $student_info->name}}</strong></h1>
+                                    <br>
+                                    <h1 class="text-center h2">ha completado satisfactoriamente el curso de <br> "Introducción a la Industria Automotriz" </h1>
                                     <br>
                                     <h1 class="display-6 text-center">Fecha: {{ strftime('%e de %B de %Y', strtotime($exam_info->exam_date)) }} </h1>
                                     <h5></h5>
@@ -117,8 +118,8 @@ setlocale(LC_TIME, 'es_ES.utf8');
         <div class="row">
           <div class="col-md-6 mx-auto">
             <!-- Contenido del div centrado -->
-                <a class="btn btn-primary btn-lg"  href="">PDF</a>
-          </div>
+            <a href="{{ route('student.descargar-pdf') }}" class="btn btn-primary">Descargar PDF</a>
+        </div>
         </div>
       </div>
 <br><br><br>

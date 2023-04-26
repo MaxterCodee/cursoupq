@@ -66,13 +66,13 @@
               <div class="row">
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
-                  <br><br><br><iframe width="750" height="450" src="https://www.youtube.com/embed/tPoSQS3FMtg" title="UPQ - La universidad automotriz de México" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <br><br><br><iframe width="500" height="350" src="https://www.youtube.com/embed/tPoSQS3FMtg" title="UPQ - La universidad automotriz de México" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
 
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
                     <figure>
-                        <img src="/assets/images/polo1.png" class="mx-auto d-block" width="60%" height="auto" alt="">
+                        <img src="/assets/images/polo1.png" class="mx-auto d-block" width="40%" height="auto" alt="">
                     </figure>
                 </div>
               </div>
@@ -81,7 +81,7 @@
 
 
               <p class="lead">En este curso abordaremos algunas preguntas importantes sobre la industria automotriz y su relación con la Universidad Politécnica de Querétaro (UPQ). <strong> ¿Cuál es la importancia de la industria automotriz en México y en Querétaro? ¿Qué son las OEM y las Tier 1 en la industria automotriz?, Aproximadamente ¿cuántos componentes tiene un vehículo?.</strong></p>
-              <br><p class="lead"><strong> Esperamos que este curso sea informativo y ayude a comprender la relevancia de la industria automotriz y la especialización de la UPQ en este campo.</strong></p>
+              <p class="lead"><strong> Esperamos que este curso sea informativo y ayude a comprender la relevancia de la industria automotriz y la especialización de la UPQ en este campo.</strong></p>
 
               <br><br>
               <a href="{{ url('student/cursos1') }}" class="btn btn-primary">

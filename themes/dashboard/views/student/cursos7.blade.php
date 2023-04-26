@@ -41,44 +41,19 @@
     <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
       <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-              <header class="mb-4 lg:mb-6 not-format">
-                  <br>
-                  <h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong>  PARA CONCLUIR </strong></h1>
-              </header>
 
-
-              <br>
-
-              <div class="row">
+            <div class="row">
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
-                  <figure>
-                    <img src="/assets/images/auto2.jpeg" class="mx-auto d-block" width="75%" height="auto" alt="">
-                  </figure>
-                                  </div>
+                  <br><br><p class="lead"><strong> Control Plan: Es una herramienta utilizada para planificar y documentar los controles necesarios para garantizar la calidad del producto o proceso.</strong> Esta herramienta identifica los puntos críticos del proceso y establece los procedimientos necesarios para garantizar la calidad del producto.</p>
+                  <p class="lead">Además, el Control Plan también se utiliza para establecer responsabilidades y definir los recursos necesarios para implementar y mantener los controles de calidad en el proceso. La herramienta incluye una lista de verificación de los pasos críticos, los límites de control, los criterios de aceptación y rechazo, así como los planes de contingencia en caso de que se presente algún problema en el proceso. Con el Control Plan, se puede garantizar que los productos cumplen con los estándares de calidad y que el proceso de producción se encuentra bajo control. De esta manera, se reduce el riesgo de producir productos defectuosos y se asegura la satisfacción del cliente.</p>
+                </div>
+
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
-                  <p class="lead"><strong> El curso aborda una serie de temas relacionados con la industria automotriz, que incluyen la clasificación de proveedores en TIER 1, TIER 2 y TIER 3, así como la definición de OEM's (Original Equipment Manufacturers) y su ubicación geográfica. También se destaca la importancia de la industria automotriz en México y en Querétaro, y cómo esta región se ha convertido en un aliado estratégico para la industria automotriz en el país.</strong>                  </p>
-                  <p class="lead"> <strong> Además, el curso explora el acento automotriz en Querétaro y cómo este ha influido en el crecimiento de la industria en la región. Se pueden discutir otros temas relacionados con la industria automotriz, como las tendencias actuales en tecnología automotriz, la sostenibilidad y las emisiones, la seguridad vehicular y la cadena de suministro global.       </strong>           </p>
-                </div>
-              </div>
-
-
-              <br><br>
-
-
-
-              <div class="row">
-                <div class="col-sm-6">
-                  <!-- Contenedor 1 -->
-                  <h1 class="text-xl font-bold text-gray-900 dark:text-white">Aplicación de Examen</h1><br>
-                </div>
-                <div class="col-sm-6">
-                  <!-- Contenedor 2 -->
-
-
-
-
+                  <br><figure>
+                    <img src="/assets/images/pc.jpg" class="mx-auto d-block" width="90%" height="auto" alt="">
+                </figure>
 
 
                 </div>
@@ -93,7 +68,7 @@
                 Anterior
               </a>
 
-              <a href="{{ url('student/dashboard') }}" class="btn btn-primary">
+              <a href="{{ url('student/cursos8') }}" class="btn btn-primary">
                 Siguiente
               </a>
               <br><br>

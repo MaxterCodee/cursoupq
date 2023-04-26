@@ -10,12 +10,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Result</h1>
+            <h1 class="m-0">Resultados</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Exam</li>
+              <li class="breadcrumb-item active">Examen</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -30,16 +30,20 @@
                 <!-- Default box -->
                 <!-- /.card -->
                 <div class="card mt-4">
-                    
+
                     <div class="card-body">
-                        <h2>Student information</h2>
+                        <h2>Información del Estudiante</h2>
                         <table class="table">
                             <tr>
-                                <td>Name : </td>
+                                <td>Nombre : </td>
                                 <td>{{ $student_info->name}}</td>
                             </tr>
                             <tr>
-                                <td>E-mail : </td>
+                                <td>Matricula : </td>
+                                <td>{{ $student_info->matricula}}</td>
+                            </tr>
+                            <tr>
+                                <td>Correo : </td>
                                 <td>{{ $student_info->email}}</td>
                             </tr>
                             {{-- <tr>
@@ -47,28 +51,34 @@
                                 <td>{{ $student_info->dob}}</td>
                             </tr> --}}
                             <tr>
-                                <td>Exam name : </td>
+                                <td>Examen : </td>
                                 <td>{{ $exam_info->title}}</td>
                             </tr>
                             <tr>
-                                <td>Exam date : </td>
+                                <td>Fecha del examen : </td>
                                 <td>{{ $exam_info->exam_date}}</td>
                             </tr>
                         </table>
-                        <h2>Result info</h2>
+                        <br>
+                        <h2>Información de resultados</h2>
                         <table class="table">
                             <tr>
-                                <td>Correst ans : </td>
+                                <td>Respuestas correctas: </td>
                                 <td>{{ $result_info->yes_ans}}</td>
                             </tr>
                             <tr>
-                                <td>Wrong ans : </td>
+                                <td>Respuestas erróneas: </td>
                                 <td>{{ $result_info->no_ans}}</td>
                             </tr>
                             <tr>
                                 <td>Total : </td>
                                 <td>{{ $result_info->yes_ans+$result_info->no_ans}}</td>
                             </tr>
+                            <tr>
+                                <td>Calificacion:  </td>
+                                <td>{{ round(($result_info->yes_ans/($result_info->yes_ans+$result_info->no_ans))*10, 2) }}</td>
+                            </tr>
+
                         </table>
                     </div>
                     <!-- /.card-body -->
@@ -83,5 +93,5 @@
     <!-- Modal -->
 
 
- 
+
 @endsection
