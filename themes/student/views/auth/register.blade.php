@@ -6,7 +6,7 @@
                     {{-- <div class="card-header">{{ __('Register') }}</div> --}}
 
                     <div class="card-body">
-                        <h1 class="text-center">Registro Estudiante</h1>
+                        <h1 class="text-center">Registro Usuario</h1>
                         <form method="POST" action="{{ route('register') }}" class="mt-4">
                             @csrf
 
@@ -25,7 +25,7 @@
                             </div>
 
                             <div class="form-group row">
-                                <label for="matricula" class="col-md-4 col-form-label text-md-right">{{ __('Matrícula') }}</label>
+                                <label for="matricula" class="col-md-4 col-form-label text-md-right">{{ __('ID Profesor') }}</label>
 
                                 <div class="col-md-6">
                                     <input id="matricula" type="text" class="form-control{{ $errors->has('matricula') ? ' is-invalid' : '' }}" name="matricula" value="{{ old('matricula') }}" required autofocus>

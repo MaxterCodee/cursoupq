@@ -36,7 +36,7 @@
               <div class="inner">
                 <h3>{{ $student}}</h3>
 
-                <p>Estudiantes Registrados</p>
+                <p>Usuaios Registrados</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>

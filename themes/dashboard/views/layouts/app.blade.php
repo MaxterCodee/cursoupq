@@ -224,7 +224,7 @@
               <li class="nav-item">
                 <a href="{{ url('admin/manage_students')}}" class="nav-link">
                     <img src="{{ url('assets/images/users.svg')}}" alt="" style="width: 12%; height: auto;">
-                    <p>Estudiantes</p>
+                    <p>Usuarios</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -232,7 +232,7 @@
 
                 <a href="{{ url('admin/registered_students')}}" class="nav-link">
                     <img src="{{ url('assets/images/studentr.svg')}}" alt="" style="width: 12%; height: auto;">
-                    <p>Estudiantes Registrados</p>
+                    <p>Usuarios Registrados</p>
                 </a>
               </li>
               <li class="nav-item">

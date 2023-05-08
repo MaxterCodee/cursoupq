@@ -39,7 +39,7 @@
                             <tr>
                                 <th>#</th>
                                 <th>Nombre</th>
-                                <th>Matrícula</th>
+                                <th>ID Profesor</th>
                                 <th>Correo</th>
                                 <th>Acciones</th>
                             </tr>

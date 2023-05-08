@@ -10,12 +10,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Estudiantes</h1>
+            <h1 class="m-0">Usuarios</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-              <li class="breadcrumb-item active">Estudiantes</li>
+              <li class="breadcrumb-item active">Usuarios</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -39,7 +39,7 @@
                             <tr>
                                 <th>#</th>
                                 <th>Nombre</th>
-                                <th>Matrícula</th>
+                                <th>ID Profesor</th>
                                 {{-- <th>DOB</th> --}}
                                 <th>Examen</th>
                                 <th>Fecha del Examen</th>
@@ -98,7 +98,7 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Agregar Estudiante</h4>
+          <h4 class="modal-title">Agregar Usuario</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="">Ingrese Matrícula</label>
+                            <label for="">Ingrese ID Profesor</label>
                             {{ csrf_field()}}
                             <input type="text" required="required" name="matricula" placeholder="Ingrese Matrícula" class="form-control">
                         </div>

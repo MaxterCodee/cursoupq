@@ -39,7 +39,7 @@
                                 <td>{{ $student_info->name}}</td>
                             </tr>
                             <tr>
-                                <td>Matricula : </td>
+                                <td>ID Profesor : </td>
                                 <td>{{ $student_info->matricula}}</td>
                             </tr>
                             <tr>

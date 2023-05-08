@@ -79,17 +79,19 @@ setlocale(LC_TIME, 'es_ES.utf8');
                             <div class="row">
 
                                 <div class="col-sm-20">
-                                    <h1 class="display-4"><strong><img src="{{ url('assets/images/Group2.svg')}}" alt="" style="width: 17%; height: auto;"> Universidad Politécnica de Querétaro</strong></h1>
+                                    {{-- <h1 class="display-4"><strong> <img src="{{ url('assets/images/Group22.svg')}}" alt="" style="width: 17%; height: auto;"> Universidad Politécnica de Querétaro</strong></h1> --}}
                                     {{-- <h1 class="display-5 text-center"><strong> Diploma de finalización de curso <br> "Introducción a la Industria Automotriz"</strong></h1> --}}
                                     <br>
                                     {{-- <h1 class="display-6 text-center">Instructor:  Dr. Juan Manuel García Guendulain</h1> --}}
-                                    <h1 class="display-5 text-center"> Se certifica que</h1>
+                                   <br><br><br><br>
+                                    <h1 class="display-5 text-center">ㅤㅤ ¡FELICIDADES!</h1>
+                                    <br><br>
+                                    <h1 class="display-3 text-center"><strong>ㅤ {{ $student_info->name}}</strong></h1>
+                                    <br><br>
+                                    <h1 class="text-center h2">ㅤㅤ ha concluido satisfactoriamente el curso de <br>ㅤㅤ "Introducción a la Industria Automotriz" </h1>
                                     <br>
-                                    <h1 class="display-3 text-center"><strong> {{ $student_info->name}}</strong></h1>
                                     <br>
-                                    <h1 class="text-center h2">ha completado satisfactoriamente el curso de <br> "Introducción a la Industria Automotriz" </h1>
-                                    <br>
-                                    <h1 class="display-6 text-center">Fecha: {{ strftime('%e de %B de %Y', strtotime($exam_info->exam_date)) }} </h1>
+                                    <h1 class="display-6 text-center">ㅤㅤ Fecha: {{ strftime('%e de %B de %Y', strtotime($exam_info->exam_date)) }} </h1>
                                     <h5></h5>
 
                                 </div>

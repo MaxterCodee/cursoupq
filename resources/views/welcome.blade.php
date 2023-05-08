@@ -334,10 +334,10 @@
                       <div class="row justify-content-center">
                          <div class="col-xl-6 col-lg-7 col-sm-10">
                             <h2 class="carousel-title">
-                                Bienvenido al curso de Introducción a la Industria Automotriz                            </h2>
-                            <p class="text">
+                                Bienvenido a la plataforma oficial de cursos de la UPQ                           </h2>
+                            {{-- <p class="text">
                                 El curso de Introducción a la Industria Automotriz tiene como objetivo brindar una visión general del sector automotriz, abordando los temas de terminología y clasificación de la industria.
-                            </p>
+                            </p> --}}
 
                          </div>
                       </div>
@@ -363,10 +363,10 @@
                       <div class="row justify-content-center">
                          <div class="col-xl-6 col-lg-7 col-sm-10">
                             <h2 class="carousel-title">
-                                El auge de la industria automotriz en México                            </h2>
+                                Cardenal  Learning Hub                            </h2>
                             <p class="text">
-                                Asimismo, se estudiará el caso específico de la industria automotriz en México, así como su desarrollo en el estado de Querétaro.
-                                <br>
+
+                                En Cardenal Learning Hub se te brinda la capacitación necesaria en diversas áreas de estudio. Nuestro objetivo es fomentar el aprendizaje continuo y proporcionar a los estudiantes y profesionales las herramientas para adquirir nuevas habilidades y conocimientos relevantes en el entorno laboral actual.                                <br>
                                 También se abordará el papel de la Universidad Politécnica de Querétaro (UPQ) en la formación de profesionales para la industria automotriz.
                             </p>
 
@@ -390,9 +390,9 @@
                       <div class="row justify-content-center">
                          <div class="col-xl-6 col-lg-7 col-sm-10">
                             <h2 class="carousel-title">
-                               Oportunidades laborales en la industria automotriz                            </h2>
+                               Compromiso                         </h2>
                             <p class="text">
-                                A través de este curso, los participantes podrán comprender mejor la importancia de la industria automotriz en la economía, así como las oportunidades laborales que ofrece este sector en crecimiento.
+                                En Cardinal Learning Hub, estamos comprometidos con tu éxito y desarrollo profesional.
                             </p>
                             <ul class="carousel-btn rounded-buttons">
                                <li>
@@ -449,7 +449,7 @@
        </div><br><br>
 
 
-       <div class="d-flex justify-content-center">
+       {{-- <div class="d-flex justify-content-center">
          <h3 class="font-weight-semibold h1">Curso diseñado e impartido por:</h3><br><br><br><br>
        </div>
 
@@ -465,7 +465,7 @@
                 <img src="{{ url('assets/images/mail.svg')}}" alt="" style="width: 5%; height: auto;">
                 manuel.garcia@upq.edu.mx</p>
                 <img src="{{ url('assets/images/tel.svg')}}" alt="" style="width: 5%; height: auto;">
-                1019000 Ext. 340</p>
+                101-9000 Ext. 340</p>
 
              </div>
              <img class="mr-4 rounded-circle" src="/assets/images/aut.png" alt="Max Orozco" width="150" height="150">
@@ -490,7 +490,7 @@
                  ivan.peredo@upq.edu.mx
                 </p>
                 <img src="{{ url('assets/images/tel.svg')}}" alt="" style="width: 5%; height: auto;">
-                101900 ext 407</p>
+                101-9000 ext 407</p>
                </p>
              </div>
              <img class="mr-4 " src="/assets/images/sistemas.png" alt="Max Orozco" width="150" height="150">
@@ -500,6 +500,11 @@
 
 
        </div>
+
+
+
+
+
 
 
        <div class="d-flex justify-content-center">
@@ -543,6 +548,7 @@
          </div>
        </address>
 
+
        <br>
        </div>
        <br><br><br>
@@ -563,7 +569,7 @@
                <img src="{{ url('assets/images/mail.svg')}}" alt="" style="width: 5%; height: auto;">
                carlos.perusquia@upq.mx</p>
                <img src="{{ url('assets/images/tel.svg')}}" alt="" style="width: 5%; height: auto;">
-               101900 ext 407</p>
+               101-900 ext 407</p>
 
             </div>
 
@@ -571,23 +577,23 @@
         </address>
         <address class="d-flex align-items-center mb-6 mx-auto">
             <div class="d-inline-flex align-items-center mr-3 text-sm text-gray-900">
-              <img class="mr-4 rounded-circle" src="/assets/images/user.png" alt="Max Orozco" width="150" height="150">
+              <img class="mr-4 rounded-circle" src="/assets/images/secretario.jpg" alt="Max Orozco" width="150" height="150">
               <div>
                   <h5 class="font-weight-semibold h3">Secretario Académico               </h5><br>
 
-                <a href="https://www.upq.mx/oferta-academica/ingenieria-en-tecnologia-automotriz/" rel="author" class="h4 text-gray-900">Dr. Juan Manuel García Guendulain‎ ‎ ‎ ‎ ‎ ‎  </a><br><br>
+                <a href="https://www.upq.mx/oferta-academica/ingenieria-en-tecnologia-automotriz/" rel="author" class="h4 text-gray-900">Mtro. Jetsai Martinez Olguin‎ ‎ ‎ ‎ ‎ ‎  </a><br><br>
                 <p class="text-base font-weight-light text-gray-500">
                  <img src="{{ url('assets/images/mail.svg')}}" alt="" style="width: 5%; height: auto;">
-                 ##CORREO##@upq.edu.mx</p>
+                 sac@upq.edu.mx</p>
                  <img src="{{ url('assets/images/tel.svg')}}" alt="" style="width: 5%; height: auto;">
-                 ###### ext ###</p>
+                 101-9000 ext. 301.</p>
 
 
               </div>
 
             </div>
           </address>
-      </div><br><br><br><br><br><br><br>
+      </div><br><br><br><br><br><br><br> --}}
 
 
 
@@ -701,7 +707,7 @@
          recepcion@upq.mx
        </p>
        <p><img src="{{ url('assets/images/telefono.svg')}}" alt="" style="width: 10%; height: auto;">Teléfono: 101 9000</p>
-       <p> + 01 234 567 89</p>
+       {{-- <p> + 01 234 567 89</p> --}}
      </div>
      <!-- Grid column -->
    </div>

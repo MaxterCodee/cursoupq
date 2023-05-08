@@ -61,8 +61,8 @@
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
                     <br><figure>
-                        <img src="/assets/images/msa.png" class="mx-auto d-block" width="50%" height="auto" alt="">
-                    </figure>
+                        <br>
+                        <iframe width="650" height="380" src="https://www.youtube.com/embed/9op4ic-3J4E" title="Anticípate a los problemas de calidad con el SPC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </figure>
                 </div>
 
                 <div class="col-sm-6">
