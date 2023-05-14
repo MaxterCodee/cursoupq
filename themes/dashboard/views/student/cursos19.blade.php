@@ -53,8 +53,7 @@
               <div class="col-sm-6">
                 <!-- Contenedor 1 -->
                 <figure>
-                  <iframe width="750" height="420" src="https://www.youtube.com/embed/95CQXR0eFnY" title="Querétaro importante fabricante automotriz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  </figure>
-                                </div>
+                    <iframe width="750" height="420" src="https://www.youtube.com/embed/42dcZmWQhkc" title="Centro de Innovación y Desarrollo Automotriz UPQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                </div>
               <div class="col-sm-6">
                 <!-- Contenedor 2 -->
                 <br>

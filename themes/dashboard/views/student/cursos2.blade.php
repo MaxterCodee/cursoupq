@@ -67,8 +67,7 @@
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
                   <br><br><br>
-                  <iframe width="700" height="360" src="https://www.youtube.com/embed/RiNTtxZRpYk" title="¿Que son las Core Tools?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+                  <iframe width="700" height="360" src="https://www.youtube.com/embed/1LTv3bckKwI" title="Introducción a la industria automotriz-core tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div>
               </div>
 
 

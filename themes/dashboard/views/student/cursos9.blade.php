@@ -51,8 +51,7 @@
                 <div class="col-sm-6">
                 <!-- Contenedor 2 -->
                 <figure class="flex  items-center">
-                    <iframe style="display: block; margin: 0 auto;" width="600" height="350" src="https://www.youtube.com/embed/E7uaHYqBgik" title="¿Qué son los proveedores y cuáles son sus tipos?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </figure>
+                    <iframe width="750" height="350" src="https://www.youtube.com/embed/S_J9UbockM4" title="Introducción a la industria automotriz-México en la industria automotriz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </figure>
                 </div>
             </div>
 

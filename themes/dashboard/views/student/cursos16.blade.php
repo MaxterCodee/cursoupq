@@ -53,8 +53,7 @@
                 <!-- Contenedor 1 -->
                 <figure>
                   <br>
-                  <iframe width="700" height="380" src="https://www.youtube.com/embed/3NyYIWsnggo" title="Industria automotriz en México: una potencia mundial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  </figure>
-                                </div>
+                  <iframe width="700" height="380" src="https://www.youtube.com/embed/Rn7HtQIvYJQ" title="Introducción a la industria automotriz-Querétaro en la industria automotriz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                </div>
               <div class="col-sm-6">
                 <!-- Contenedor 2 -->
                 <p class="lead"><strong> La cercanía de México con Estados Unidos</strong> es un factor clave en el crecimiento de la industria automotriz en el país. Esta ubicación geográfica permite una fácil conexión con las plantas de fabricación de automóviles y proveedores en Estados Unidos, lo que reduce significativamente los costos de transporte y logística.                  </p>
