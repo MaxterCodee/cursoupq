@@ -270,9 +270,9 @@
 
      <header id="header-section">
          <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
-         <div class="container">
+         <div class="container" style="back-ground:white;">
            <div class="navbar-brand-wrapper d-flex w-100">
-             <img src="{{ url('assets/images/Group2.svg')}}" alt="" style="width: 18%; height: auto;">
+             <img src="{{ url('assets/images/logo2.png')}}" alt="" style="width: 22%; height: auto;">
              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="mdi mdi-menu navbar-toggler-icon"></span>
              </button>
@@ -282,8 +282,8 @@
                <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
 
                  <div class="navbar-collapse-logo">
-                     <svg class="icono" width="50" height="50">
-                         <use href="{{ url('assets/images/Group2.svg')}}"></use>
+                     <svg class="icono" width="60" height="60">
+                         <use href="{{ url('assets/images/logo.png')}}"></use>
                      </svg>
                  </div>
 
@@ -296,9 +296,9 @@
                <li class="nav-item btn-contact-us pl-4 pl-lg-0">
 
 
-                 <a href="{{ url('/admin/login') }}"  class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Admin</a>
-                 <a href="{{ url('/login') }}" class="btn btn-opacity-light mr-1"><b>Iniciar Sesión</b></a>
-                 <a href="{{ route('register') }}"class="btn btn-opacity-success ml-1"><b>Registrarme</b></a>
+                 <a href="{{ url('/admin/login') }}"  class="btn btn-info" data-toggle="modal" data-target="#exampleModal" style="background-color:#ffb350; border-color:#ffb350; color:white;"><strong>Administrador</strong></a>
+                 <a href="{{ url('/login') }}" class="btn btn-info" style="background-color:#ffb350; border-color:#ffb350; color:white;"><b>Iniciar Sesión</b></a>
+                 <a href="{{ route('register') }}" class="btn btn-info" style="background-color:#ffb350; border-color:#ffb350; color:white;"><b>Registrarme</b></a>
                 </li>
              </ul>
            </div>
@@ -324,7 +324,7 @@
              <div
                 class="carousel-item bg_cover active"
                 style="
-                background-image: url(assets/images/carrusel.jpg);
+                background-image: url(assets/images/fisica-4.png);
                 background-size: 100%;
                 background-position: center center;
                 "
@@ -334,7 +334,7 @@
                       <div class="row justify-content-center">
                          <div class="col-xl-6 col-lg-7 col-sm-10">
                             <h2 class="carousel-title">
-                                Bienvenido a la plataforma oficial de cursos de la UPQ                           </h2>
+                                Bienvenido tu plataforma de Física</h2>
                             {{-- <p class="text">
                                 El curso de Introducción a la Industria Automotriz tiene como objetivo brindar una visión general del sector automotriz, abordando los temas de terminología y clasificación de la industria.
                             </p> --}}
@@ -351,7 +351,7 @@
              <div
                 class="carousel-item bg_cover"
                 style="
-                background-image: url(assets/images/movilidad.png);
+                background-image: url(assets/images/fisica-3.png);
                 background-size: 100%;
                 background-position: center center;
 
@@ -362,12 +362,9 @@
                    <div class="container">
                       <div class="row justify-content-center">
                          <div class="col-xl-6 col-lg-7 col-sm-10">
-                            <h2 class="carousel-title">
-                                Cardenal  Learning Hub                            </h2>
+                            <h2 class="carousel-title">Physics - Hub</h2>
                             <p class="text">
-
-                                En Cardenal Learning Hub se te brinda la capacitación necesaria en diversas áreas de estudio. Nuestro objetivo es fomentar el aprendizaje continuo y proporcionar a los estudiantes y profesionales las herramientas para adquirir nuevas habilidades y conocimientos relevantes en el entorno laboral actual.                                <br>
-                                También se abordará el papel de la Universidad Politécnica de Querétaro (UPQ) en la formación de profesionales para la industria automotriz.
+                              Física es una de las ciencias más importantes, comienza a estudiarla con nosotros y enaorate de la ciencia.
                             </p>
 
                          </div>
@@ -382,7 +379,7 @@
              <div
                 class="carousel-item bg_cover"
                 style="
-                background-image: url(https://cdn.ayroui.com/1.0/images/slider/slider-one/3.jpg);
+                background-image: url(assets/images/fisica-2.png);
                 "
                 >
                 <div class="carousel-caption">
@@ -390,18 +387,19 @@
                       <div class="row justify-content-center">
                          <div class="col-xl-6 col-lg-7 col-sm-10">
                             <h2 class="carousel-title">
-                               Compromiso                         </h2>
+                               Aprende</h2>
                             <p class="text">
-                                En Cardenal Learning Hub, estamos comprometidos con tu éxito y desarrollo profesional.
+                                Estudia física con nostros y aprovecha las diferentes herramientas que tenemos para ti
                             </p>
                             <ul class="carousel-btn rounded-buttons">
                                <li>
-                                <a href="{{ url('/login') }}" class="btn btn-opacity-light mr-1"><b>Iniciar Sesión</b></a>
+                                <a href="{{ url('/login') }}" class="btn btn-opacity-light mr-1" style="background-color:#ffb350; border-color:#ffb350; color:white;"><b>Iniciar Sesión</b></a>
                                </li>
                                <li>
-                                <a  href="{{ route('register') }}"class="btn btn-opacity-success ml-1"><b>Registrarme</b></a>
+                                <a  href="{{ route('register') }}"class="btn btn-opacity-success ml-1" style="background-color:#ffb350; border-color:#ffb350; color:white;"><b>Registrarme</b></a>
                                </li>
                             </ul>
+                            
                          </div>
                       </div>
                       <!-- row -->

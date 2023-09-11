@@ -95,11 +95,11 @@
 
 
 
-              <a href="{{ url('student/cursos5') }}" class="btn btn-primary">
+              <a href="{{ url('student/cursos5') }}" class="btn btn-primary" style="background-color:#ffb350; color:#030d4f; border:none;">
                 Anterior
               </a>
 
-              <a href="{{ url('student/cursos7') }}" class="btn btn-primary">
+              <a href="{{ url('student/cursos7') }}" class="btn btn-primary" style="background-color:#ffb350; color:#030d4f; border:none;">
                 Siguiente
               </a>
               <br><br>

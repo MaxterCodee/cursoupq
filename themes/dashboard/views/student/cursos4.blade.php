@@ -10,12 +10,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Curso de Introducción a la Industria Automotriz</h1>
+            <h1 class="m-0">Physics - Hub</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Curso de Introducción a la Industria Automotriz</li>
+              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item active">Physics - Hub</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -49,8 +49,10 @@
               <div class="row">
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
-                  <h1 class="text-xl font-bold text-gray-900 dark:text-white">¿Qué son las "Core Tools"?</h1><br>
-                  <p class="lead"><strong> Las Core Tools</strong>, o Herramientas Básicas de la Calidad, son un conjunto de técnicas y metodologías utilizadas en la gestión de la calidad en la industria manufacturera. Las <strong> Core Tools incluyen seis herramientas principales</strong> que ayudan a garantizar la calidad y eficiencia en los procesos de producción. <strong> Estas herramientas son ampliamente utilizadas en la industria automotriz</strong> y también se aplican en otros sectores como la ingeniería, la gestión de proyectos y la gestión empresarial en general. <strong> Las Core Tools permiten identificar los riesgos, prevenir problemas y mejorar los procesos para producir productos de alta calidad de manera consistente.</strong> La utilización de estas herramientas ayuda a las empresas a cumplir con los requisitos del cliente y a mejorar su reputación en el mercado.                  </p>
+                  <h1 class="text-xl font-bold text-gray-900 dark:text-white" style="text-align:justify;">Choque / Colision Elastica</h1>
+                  <p class="lead">Imagina que estas con tus amigos jugando billar, cada que es tu turno, al momento de pegarle a la bola blanca, esta hace colisión con las demas bolas, sin embargo
+            al momento de que chocan, las bolas no se deforman, a esto se le conoce como colisión inelastica. Ahora imagina que dos automoviles impactan en la carretera y ambos se deforman,
+            en una colisión donde estos cuerpos se deforman, se le conoce como colisión elastica.</p>
 
                 </div>
                 <div class="col-sm-6">
@@ -74,27 +76,18 @@
                 </div>
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
-
-                  <p class="lead">1. <strong> Planificación avanzada de la calidad del producto (APQP)</strong>: es un proceso estructurado utilizado para desarrollar y lanzar nuevos productos o procesos. APQP es una herramienta utilizada para planificar, definir y documentar los requisitos del cliente y los objetivos del producto, identificar riesgos y establecer planes de acción.</p>
-                  <br><p class="lead"><strong> APQP</strong> también es una herramienta utilizada para establecer los procesos necesarios para garantizar que los productos o procesos cumplan con los requisitos legales y reglamentarios aplicables. <strong> Este proceso se divide en cinco fases</strong>: planificación y definición del programa, diseño y desarrollo del producto, diseño y desarrollo del proceso, validación del producto y del proceso, y lanzamiento del producto. <strong> APQP es una herramienta eficaz para garantizar que los productos o procesos se desarrollen y lancen en tiempo y forma</strong>, y que cumplan con los requisitos de calidad y seguridad necesarios.</p>
-
-
+                  <h1 class="text-xl font-bold text-gray-900 dark:text-white">Choque / Colision Inelastica</h1>
+                  <p class="lead">Imagina que estas con tus amigos jugando billar, cada que es tu turno, al momento de pegarle a la bola blanca, esta hace colisión con las demas bolas, sin embargo
+            al momento de que chocan, las bolas no se deforman, a esto se le conoce como colisión inelastica. Ahora imagina que dos automoviles impactan en la carretera y ambos se deforman,
+            en una colisión donde estos cuerpos se deforman, se le conoce como colisión elastica.</p>
                 </div>
               </div>
-
-
               <br><br>
-
-
-
-
-
-
-              <a href="{{ url('student/cursos3') }}" class="btn btn-primary">
+              <a href="{{ url('student/cursos3') }}" class="btn btn-primary" style="background-color:#ffb350; color:#030d4f; border:none;">
                 Anterior
               </a>
 
-              <a href="{{ url('student/cursos5') }}" class="btn btn-primary">
+              <a href="{{ url('student/cursos5') }}" class="btn btn-primary" style="background-color:#ffb350; color:#030d4f; border:none;">
                 Siguiente
               </a>
               <br><br>

@@ -10,12 +10,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Curso de Introducción a la Industria Automotriz</h1>
+            <h1 class="m-0">Physics - Hub</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Curso de Introducción a la Industria Automotriz</li>
+              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item active">Physics - Hub</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -42,63 +42,56 @@
       <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
 
-
             <div class="row">
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
                   <header class="mb-4 lg:mb-6 not-format">
 
-                    <br><h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> TERMINOLOGÍA </strong></h1>
+                    <br><h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong>Movimiento Rectilineo Uniformemente Acelerado</strong></h1>
                 </header>
-
-                <p class="lead"><strong>AIAG:</strong> Automotive Industry Action Group            </p>
-                <p class="lead"><strong>ANFIA:</strong> Asociación Nacional de la Industria Automotriz Italiana            </p>
-                <p class="lead"><strong>ANFIA:</strong> Asociación Nacional de la Industria Automotriz Italiana            </p>
-                <p class="lead"><strong>FIEV:</strong> Federación de la Industria de Equipamiento Vehicular            </p>
-                <p class="lead"><strong>SMMT:</strong> Society of Motor Manufacturers and Traders              </p>
-                <p class="lead"><strong>VDA:</strong> Verband der Automobilindustrie (Asociación de la Industria Automotriz Alamana)</p>
-                <p class="lead"><strong>ANPACT:</strong> Asociación Nacional de Productores de Autobuses, Camiones y Tractocamiones.              </p>
-                <p class="lead"><strong>AMDA:</strong> Asociación Mexicana de Distribuidores de Automotores.              </p>
-                <p class="lead"><strong>INA:</strong> Industria Nacional de Autopartes.              </p>
-                <p class="lead"><strong>OEM:</strong> Original Equipment Manufacture (Fabricante de equipos originales).              </p><br>
-
+                <p class="lead">A comparación del Movimiento Rectilineo Uniforme, en el M.R.U.A presenta una aceleración o en caso de ser negativa, una desaceleración,
+            la V1 o Velocidad Inicial, posterior a un tiempo determinado y de recorrer una distancia d, la V2 o Velocidad Final es diferente. Cada un de los diferentes 
+            valores pueden ser calculados con una fomula en el video, ¡Ve nuestro video para adentrarte más en el tema!</p><br>
                 <br>
-                                  </div>
-                <div class="col-sm-6">
+              </div>
+              <div class="col-sm-6">
                   <!-- Contenedor 2 -->
                   <br><br><br>
-                  <iframe width="700" height="360" src="https://www.youtube.com/embed/1LTv3bckKwI" title="Introducción a la industria automotriz-core tools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div>
+                  <iframe width="600" height="350" src="https://www.youtube.com/embed/7d3Tje0bEJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <br><br>
+              <div>
+              <h1>Calculadora de MRUA</h1>
+    <label for="initialPosition">Posición Inicial (m):</label>
+    <input type="number" id="initialPosition" step="0.1">
+    <br>
+    <label for="initialVelocity">Velocidad Inicial (m/s):</label>
+    <input type="number" id="initialVelocity" step="0.1">
+    <br>
+    <label for="acceleration">Aceleración (m/s²):</label>
+    <input type="number" id="acceleration" step="0.1">
+    <br>
+    <label for="time">Tiempo (s):</label>
+    <input type="number" id="time" step="0.1">
+    <br>
+    <button onclick="calcular()">Calcular</button>
+    <br><br>
+    <h2>Resultados:</h2>
+    <p>Posición Final: <span id="finalPosition">-</span> m</p>
+    <p>Velocidad Final: <span id="finalVelocity">-</span> m/s</p>
               </div>
 
-
-
-
-
-
-              <br><br>
-
-
-
-
-              <a href="{{ url('student/cursos1') }}" class="btn btn-primary">
+              <a href="{{ url('student/cursos1') }}" class="btn btn-primary" style="background-color:#ffb350; color:#030d4f; border:none; margin-left:1%;">
                 Anterior
               </a>
 
-              <a href="{{ url('student/cursos3') }}" class="btn btn-primary">
+              <a href="{{ url('student/cursos3') }}" class="btn btn-primary" style="background-color:#ffb350; color:#030d4f; border:none;">
                 Siguiente
               </a>
               <br><br>
-
-
+              
               <h1 class="text-xl font-bold text-gray-900 dark:text-white"></h1>
-              <h1 class="text-xl font-bold text-gray-900 dark:text-white"></h1>
-              <h1 class="text-xl font-bold text-gray-900 dark:text-white"></h1>
-
               <p class="lead"> </p>
-              <p class="lead"> </p>
-              <p class="lead"> </p>
-
-
     </div>
     </div>
 

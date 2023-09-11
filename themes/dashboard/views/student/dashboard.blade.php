@@ -1,7 +1,11 @@
 @extends('layouts.student')
 @section('title','Portal dashboard')
 @section('content')
-
+<style>
+  .breadcrumb-item{
+    color:color:#030d4f;
+  }
+</style>
      <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -9,12 +13,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard</h1>
+            <h1 class="m-0">Panel Principal</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-              <li class="breadcrumb-item active">Dashboard</li>
+              <li class="breadcrumb-item" style="color:#030d4f;"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item active">Panel Principal</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -26,17 +30,17 @@
     <section class="content">
     <div class="col-lg-6 col-6">
         <div class="small-box bg-info">
-            <div class="inner">
+            <div class="inner" style="background:#030d4f; color:white;">
             <h3>Curso</h3>
 
             <p>Curso de Introducción a la Industria Automotriz</p>
             <p>Estatus: En curso</p>
             </div>
-            <div class="icon">
+            <div class="icon" style="background:#030d4f;">
             <i class="ion ion-bag"></i>
             </div>
 
-                <a href="{{ url('student/cursos')}}" class="small-box-footer">Aplicar<i class="fas fa-arrow-circle-right"></i></a>
+                <a href="{{ url('student/cursos')}}" class="small-box-footer" style="background:#fb0c06;">Aplicar<i class="fas fa-arrow-circle-right"></i></a>
 
 
 

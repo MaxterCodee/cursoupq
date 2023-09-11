@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Tiro Parabólico</title>
+</head>
+<body>
+    <h1>Calculadora de Tiro Parabólico</h1>
+    <label for="initialVelocity">Velocidad Inicial (m/s):</label>
+    <input type="number" id="initialVelocity" step="0.1">
+    <br>
+    <label for="angle">Ángulo (grados):</label>
+    <input type="number" id="angle" step="1">
+    <br>
+    <button onclick="calcular()">Calcular</button>
+    <br><br>
+    <h2>Resultados:</h2>
+    <p>Velocidad en X: <span id="velocityX">-</span> m/s</p>
+    <p>Velocidad en Y: <span id="velocityY">-</span> m/s</p>
+    <p>Tiempo de Vuelo: <span id="flightTime">-</span> s</p>
+    <p>Altura Máxima: <span id="maxHeight">-</span> m</p>
+    <p>Alcance: <span id="range">-</span> m</p>
+
+        <script>
+            function calcular() {
+                const initialVelocity = parseFloat(document.getElementById("initialVelocity").value);
+                const angle = parseFloat(document.getElementById("angle").value);
+
+                const angleRad = (angle * Math.PI) / 180;
+                const velocityX = initialVelocity * Math.cos(angleRad);
+                const velocityY = initialVelocity * Math.sin(angleRad);
+
+                const flightTime = (2 * velocityY) / 9.81;
+                const maxHeight = (velocityY * velocityY) / (2 * 9.81);
+                const range = velocityX * flightTime;
+
+                document.getElementById("velocityX").textContent = velocityX.toFixed(2);
+                document.getElementById("velocityY").textContent = velocityY.toFixed(2);
+                document.getElementById("flightTime").textContent = flightTime.toFixed(2);
+                document.getElementById("maxHeight").textContent = maxHeight.toFixed(2);
+                document.getElementById("range").textContent = range.toFixed(2);
+            }
+        </script>
+</body>
+</html>

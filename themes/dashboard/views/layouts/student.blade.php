@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> @yield('title')</title>
 
-
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -31,12 +30,34 @@
   <link rel="stylesheet" href="{{ url('assets/plugins/summernote/summernote-bs4.min.css')}}">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
 </head>
+<style>
+.p1{
+  color:white ;
+}
+
+.nav-item{
+  color:white;
+}
+
+.nav-link{
+  color:white;
+}
+
+  .nav-item:hover{
+    background:#030d4f;
+    color:red;
+  }
+
+  .mt-2{
+    color:#030d4f;
+  }
+</style>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="{{url('assets/dist/img/AdminLTELogo.png')}}" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__shake" src="{{ url('assets/images/einstein.png')}}" alt="AdminLTELogo" height="60" width="60">
   </div>
 
   <!-- Navbar -->
@@ -96,16 +117,15 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background:#030d4f; color:white;">
     <!-- Brand Logo -->
-    <a href="dashboard" class="brand-link">
-        <img src="{{ url('assets/images/logo1.svg')}}" alt="" style="width: 30%; height: auto;">
-
-      <span class="brand-text font-weight-light">Curso de Induccion</span>
+    <a href="dashboard" class="brand-link"> 
+        <img src="{{ url('assets/images/logo2.png')}}" alt="" style="width: 25%; height: auto; color:black;">
+      <span class="brand-text font-color-black" style="color:white;"><strong>Physics-Hub</strong></span>
     </a>
 
     <!-- Sidebar -->
-    <div class="sidebar">
+    <div class="sidebar" style="background:#030d4f; color:#030d4f;"> <!--#ce113ae3-->
       <!-- Sidebar user panel (optional) -->
 
       <!-- SidebarSearch Form -->
@@ -121,7 +141,7 @@
       </div> --}}
 
       <!-- Sidebar Menu -->
-      <nav class="mt-2">
+      <nav class="mt-2" >
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
@@ -129,30 +149,55 @@
             <li class="nav-item">
                 <a href="{{ url('student/dash')}}" class="nav-link">
                     <img src="{{ url('assets/images/home.svg')}}" alt="" style="width: 12%; height: auto;">
-                    <p>Dashboard</p>
+                    <p><strong>Panel de Inicio</strong></p>
                 </a>
             </li>
             {{-- <li class="nav-item">
                 <a href="{{ url('student/cursos')}}" class="nav-link">
                     <img src="{{ url('assets/images/cursos.svg')}}" alt="" style="width: 12%; height: auto;">
-                    <p>Cursos</p>
+                    <p class="p1"><strong>Cursos</strong></p>
                 </a>
             </li> --}}
+            <li class="nav-item" style="hover-color">
+                <a href="{{ url('student/exam')}}" class="nav-link">
+                    <img src="{{ url('assets/images/exam1.svg')}}" alt="" style="width: 12%; height: auto;">
+                    <p class="p1"><strong>Exámenes</strong></p>
+                </a>
+            </li>
             <li class="nav-item">
                 <a href="{{ url('student/exam')}}" class="nav-link">
                     <img src="{{ url('assets/images/exam1.svg')}}" alt="" style="width: 12%; height: auto;">
-                    <p>Exámenes</p>
+                    <p class="p1"><strong>Chat-Bot</strong></p>
                 </a>
             </li>
-
+            <li class="nav-item">
+                <a href="{{ url('student/exam')}}" class="nav-link">
+                    <img src="{{ url('assets/images/exam1.svg')}}" alt="" style="width: 12%; height: auto;">
+                    <p class="p1"><strong>Formulario</strong></p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ url('student/exam')}}" class="nav-link">
+                    <img src="{{ url('assets/images/exam1.svg')}}" alt="" style="width: 12%; height: auto;">
+                    <p class="p1"><strong>Calculadoras</strong></p>
+                </a>
+            </li>
             <li class="nav-item">
               <a href="{{ url('student/logout')}}" class="nav-link">
                 <img src="{{ url('assets/images/logout.svg')}}" alt="" style="width: 12%; height: auto;">
-                <p>Cerrar sesión</p>
+                <p class="p1"><strong>Cerrar Sesion</strong></p>
               </a>
             </li>
+            <br><br><br><br><br><br><br><br><br>
+            <center>
+              <div style="width:90%;">
+                <div  style="width: auto; background:#030d4f;">
+                  <img src="{{ url('assets/images/atomo.png')}}" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </center>
             <!--
-
+          
 
         </ul>
       </nav>
@@ -177,6 +222,10 @@
   <!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
+
+
+
+
 
 <!-- jQuery -->
 <script src="{{ url('assets/plugins/jquery/jquery.min.js')}}"></script>
@@ -220,5 +269,6 @@
         $('.datatable').dataTable();
     });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

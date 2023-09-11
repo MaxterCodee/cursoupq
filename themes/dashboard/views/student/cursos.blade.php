@@ -10,12 +10,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Curso de Introducción a la Industria Automotriz</h1>
+            <h1 class="m-0">Physics - Hub / Aprende Física con Nosotros</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Curso de Introducción a la Industria Automotriz</li>
+              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item active">Physics - Hub</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -44,55 +44,35 @@
         <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert justify-end">
             <header class="mb-4 lg:mb-6 not-format">
-              <br><h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong> Antes de empezar</strong></h1>
+              <br><h1 class="text-xl font-bold text-gray-900 dark:text-white"><strong>Antes de comenzar</strong></h1>
             </header>
-
-
-
-
-              <p class="lead">Bienvenido/a, antes de empezar, hablaremos sobre la Universidad Politécnica de Querétaro (UPQ) y su enfoque en la industria automotriz. <strong> ¿Sabías que la UPQ es la única universidad en México con acento automotriz?</strong> Esta institución educativa ha desarrollado un programa educativo especializado en el campo de la ingeniería automotriz, con el objetivo de formar profesionales altamente capacitados en esta área.            </p>
-
-
-
-
-
-
-
-
-
+            <p class="lead">Bienvenido/a, antes de comenzar, hablaremos de ¿Qué es Physics- Hub? Es una plataforma de aprendizaje y enseñansa de la fisica con una estructura un poco diferente a las demas,
+                un lugar donde podras encontrar herramientas como calculadoras y un Chat-Bot que te asistira en todo momento.       
+            </p>
               <p class="lead"> </p>
-
-
               <div class="row">
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
-                  <br><br><br><iframe width="500" height="350" src="https://www.youtube.com/embed/tPoSQS3FMtg" title="UPQ - La universidad automotriz de México" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe width="600" height="350" src="https://www.youtube.com/embed/7d3Tje0bEJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
                     <figure>
-                        <img src="/assets/images/polo1.png" class="mx-auto d-block" width="40%" height="auto" alt="">
+                        <img src="/assets/images/fisica-2.png" class="mx-auto d-block" width="40%" height="auto" alt="">
                     </figure>
                 </div>
-              </div>
+              </div><br>
+              <p class="lead" style="text-align:justify;">En este curso abordaremos y estudiaremos los principales temas basicos de Física Clasica. Aprenderemos, resolveremos problemas y resolveremos tus dudas. Una vez que comiences el curso, cada que cambies de pagina, podras ver un tema diferente,
+                cada una de esas secciones incluye una breve explicación del tema, una calculadora de problemas enfocado a esa rama de la física en partizular y un asistente que te resolvera tus dudas en el momento que te surjan. 
+              </strong></p>
 
-
-
-
-              <p class="lead">En este curso abordaremos algunas preguntas importantes sobre la industria automotriz y su relación con la Universidad Politécnica de Querétaro (UPQ). <strong> ¿Cuál es la importancia de la industria automotriz en México y en Querétaro? ¿Qué son las OEM y las Tier 1 en la industria automotriz?, Aproximadamente ¿cuántos componentes tiene un vehículo?.</strong></p>
-              <p class="lead"><strong> Esperamos que este curso sea informativo y ayude a comprender la relevancia de la industria automotriz y la especialización de la UPQ en este campo.</strong></p>
-
-              <br><br>
-              <a href="{{ url('student/cursos1') }}" class="btn btn-primary">
+              <br>
+              <a href="{{ url('student/cursos1') }}" class="btn btn-primary" style="background-color:#ffb350; color:#030d4f; border:none;">
                 Siguiente
               </a>
+               <br><br>
 
-                            <br><br>
-
-              <h1 class="text-xl font-bold text-gray-900 dark:text-white"></h1>
-              <h1 class="text-xl font-bold text-gray-900 dark:text-white"></h1>
-              <h1 class="text-xl font-bold text-gray-900 dark:text-white"></h1>
+              <h1 class="text-xl font-bold text-gray-900 dark:text-white"></h1><!--Utiliza este h1 para seguir ingresando texto-->
 
               <p class="lead"> </p>
               <p class="lead"> </p>
