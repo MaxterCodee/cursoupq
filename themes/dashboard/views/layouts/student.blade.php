@@ -117,7 +117,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background:#030d4f; color:white;">
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background:#44749d; color:white;">
     <!-- Brand Logo -->
     <a href="dashboard" class="brand-link"> 
         <img src="{{ url('assets/images/logo2.png')}}" alt="" style="width: 25%; height: auto; color:black;">
@@ -125,7 +125,7 @@
     </a>
 
     <!-- Sidebar -->
-    <div class="sidebar" style="background:#030d4f; color:#030d4f;"> <!--#ce113ae3-->
+    <div class="sidebar" style="background:#44749d; color:#030d4f;"> <!--#ce113ae3-->
       <!-- Sidebar user panel (optional) -->
 
       <!-- SidebarSearch Form -->
@@ -141,7 +141,7 @@
       </div> --}}
 
       <!-- Sidebar Menu -->
-      <nav class="mt-2" >
+      <nav class="mt-2" style="color:black;">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
@@ -149,7 +149,7 @@
             <li class="nav-item">
                 <a href="{{ url('student/dash')}}" class="nav-link">
                     <img src="{{ url('assets/images/home.svg')}}" alt="" style="width: 12%; height: auto;">
-                    <p><strong>Panel de Inicio</strong></p>
+                    <p class="p1"> <strong>Panel de Inicio</strong></p>
                 </a>
             </li>
             {{-- <li class="nav-item">
@@ -191,7 +191,7 @@
             <br><br><br><br><br><br><br><br><br>
             <center>
               <div style="width:90%;">
-                <div  style="width: auto; background:#030d4f;">
+                <div  style="width: auto; background:#44749d">
                   <img src="{{ url('assets/images/atomo.png')}}" class="card-img-top" alt="...">
               </div>
             </div>

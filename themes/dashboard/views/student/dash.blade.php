@@ -24,17 +24,17 @@
 
     <!-- /.content-header -->
     <section class="content">
-    <div class="col-lg-6 col-6" style="background-color:#030d4f;">
-        <div class="small-box bg-info" style="background-color:#030d4f;">
-            <div class="inner" style="background-color:#030d4f;">
+    <div class="col-lg-6 col-6" style="background-color:#44749d;">
+        <div class="small-box bg-info" style="background-color:#44749d;">
+            <div class="inner" style="background-color:#44749d;">
             <h3>Curso</h3>
             <p>Curso de Introducción a la Industria Automotriz</p>
             <p>Estatus: En curso</p>
             </div>
-            <div class="icon" style="background-color:#030d4f;">
-            <i class="ion ion-bag" style="background-color:#030d4f;"></i>
+            <div class="icon" style="background-color:#44749d;">
+            <i class="ion ion-bag" style="background-color:#44749d;"></i>
             </div>
-                <a href="{{ url('student/cursos')}}" class="small-box-footer" style="background-color:#030d4f;">Aplicar<i class="fas fa-arrow-circle-right"></i></a>
+                <a href="{{ url('student/cursos')}}" class="small-box-footer" style="background-color:#44749d;">Aplicar<i class="fas fa-arrow-circle-right"></i></a>
             </div>
         </div>
 

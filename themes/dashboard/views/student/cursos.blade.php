@@ -54,7 +54,11 @@
                 <div class="col-sm-6">
                   <!-- Contenedor 1 -->
                   <iframe width="600" height="350" src="https://www.youtube.com/embed/7d3Tje0bEJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div>
+                      
+                    </div>
                 </div>
+
                 <div class="col-sm-6">
                   <!-- Contenedor 2 -->
                     <figure>
@@ -67,7 +71,7 @@
               </strong></p>
 
               <br>
-              <a href="{{ url('student/cursos1') }}" class="btn btn-primary" style="background-color:#ffb350; color:#030d4f; border:none;">
+              <a href="{{ url('student/cursos1') }}" class="btn btn-primary" style="background-color:#44749d; color:white; border:none;">
                 Siguiente
               </a>
                <br><br>

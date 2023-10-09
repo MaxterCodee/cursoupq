@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="card">
+                <div class="card" style=" box-shadow: 4px 5px 10px #888888; background-color:#030d4f; color:white; border-radius:15px;">
                     {{-- <div class="card-header">{{ __('Register') }}</div> --}}
 
                     <div class="card-body">

@@ -30,17 +30,17 @@
     <section class="content">
     <div class="col-lg-6 col-6">
         <div class="small-box bg-info">
-            <div class="inner" style="background:#030d4f; color:white;">
+            <div class="inner" style="background:#44749d; color:white;">
             <h3>Curso</h3>
 
-            <p>Curso de Introducción a la Industria Automotriz</p>
+            <p>Curso de Introducción a la Fisica Clasica</p>
             <p>Estatus: En curso</p>
             </div>
-            <div class="icon" style="background:#030d4f;">
+            <div class="icon" style="background:#44749d;">
             <i class="ion ion-bag"></i>
             </div>
 
-                <a href="{{ url('student/cursos')}}" class="small-box-footer" style="background:#fb0c06;">Aplicar<i class="fas fa-arrow-circle-right"></i></a>
+                <a href="{{ url('student/cursos')}}" class="small-box-footer" style="background:#44749d">Aplicar<i class="fas fa-arrow-circle-right"></i></a>
 
 
 

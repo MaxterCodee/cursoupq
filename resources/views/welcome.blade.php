@@ -296,9 +296,9 @@
                <li class="nav-item btn-contact-us pl-4 pl-lg-0">
 
 
-                 <a href="{{ url('/admin/login') }}"  class="btn btn-info" data-toggle="modal" data-target="#exampleModal" style="background-color:#ffb350; border-color:#ffb350; color:white;"><strong>Administrador</strong></a>
-                 <a href="{{ url('/login') }}" class="btn btn-info" style="background-color:#ffb350; border-color:#ffb350; color:white;"><b>Iniciar Sesión</b></a>
-                 <a href="{{ route('register') }}" class="btn btn-info" style="background-color:#ffb350; border-color:#ffb350; color:white;"><b>Registrarme</b></a>
+                 <a href="{{ url('/admin/login') }}"  class="btn btn-info" data-toggle="modal" data-target="#exampleModal" style="background-color:#44749d; border-color:#44749d; color:white;"><strong>Administrador</strong></a>
+                 <a href="{{ url('/login') }}" class="btn btn-info" style="background-color:#44749d; border-color:#44749d; color:white;"><b>Iniciar Sesión</b></a>
+                 <a href="{{ route('register') }}" class="btn btn-info" style="background-color:#44749d; border-color:#44749d; color:white;"><b>Registrarme</b></a>
                 </li>
              </ul>
            </div>
@@ -364,7 +364,7 @@
                          <div class="col-xl-6 col-lg-7 col-sm-10">
                             <h2 class="carousel-title">Physics - Hub</h2>
                             <p class="text">
-                              Física es una de las ciencias más importantes, comienza a estudiarla con nosotros y enaorate de la ciencia.
+                              Física es una de las ciencias más importantes, comienza a estudiarla con nosotros y enamorate de la ciencia.
                             </p>
 
                          </div>
